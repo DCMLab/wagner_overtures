@@ -1,3 +1,3 @@
-path	filename	extension	md5	label_count	KeySig	TimeSig	composer	musescore	workTitle	movementTitle	reviewer	annotator
-./WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.mscx	WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia	.mscx	988055d6597ac8fb1fa2cf70f1a33df6	360	3, 0	6/8	Richard Wagner	2.3.2	Tristan und Isolde			Adrian Nagel
-./WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.mscx	WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel	.mscx	6d3c3a3367360afdac45f109cac799f1	1075	4, 3, 0, -3, 0	4/4, 4/4		2.3.2	Die Meistersinger von Nürnberg	I. Vorspiel		Adrian Nagel
+path	filename	extension	md5	label_count	KeySig	TimeSig	composer	musescore	workTitle	movementTitle	composed_start	composed_end	annotator
+./WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.mscx	WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia	.mscx	988055d6597ac8fb1fa2cf70f1a33df6	360	3, 0	6/8	Richard Wagner	2.3.2	Tristan und Isolde		1859	1867	Adrian Nagel
+./WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.mscx	WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel	.mscx	6d3c3a3367360afdac45f109cac799f1	1075	4, 3, 0, -3, 0	4/4, 4/4		2.3.2	Die Meistersinger von Nürnberg	I. Vorspiel	1859	1867	Adrian Nagel
