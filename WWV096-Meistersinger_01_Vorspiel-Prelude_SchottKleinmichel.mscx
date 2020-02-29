@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <museScore version="2.06">
   <programVersion>2.3.2</programVersion>
-  <programRevision>4592407</programRevision>
+  <programRevision>3543170</programRevision>
   <Score>
     <LayerTag id="0" tag="default"></LayerTag>
     <currentLayer>0</currentLayer>
@@ -254,6 +254,12 @@
           </System>
         <System>
           </System>
+        <System>
+          </System>
+        <System>
+          </System>
+        </Page>
+      <Page>
         <System>
           </System>
         </Page>
@@ -4796,7 +4802,7 @@ Vorspiel</text>
           </Chord>
         <tick>63120</tick>
         <Harmony>
-          <name>viio7</name>
+          <name>viio7]</name>
           </Harmony>
         <tick>63240</tick>
         <Chord>
@@ -4878,7 +4884,7 @@ Vorspiel</text>
           <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dolce.</i></text>
           </StaffText>
         <Harmony>
-          <name>I.V7(4)</name>
+          <name>I.V[V7(4)</name>
           </Harmony>
         <Slur id="25">
           <track>0</track>
@@ -4919,7 +4925,7 @@ Vorspiel</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V[V(964)</name>
+          <name>V(964)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
@@ -5054,7 +5060,7 @@ Vorspiel</text>
             </Note>
           </Chord>
         <Harmony>
-          <name>V7(9)]</name>
+          <name>V7(9)</name>
           </Harmony>
         <Chord>
           <durationType>quarter</durationType>
