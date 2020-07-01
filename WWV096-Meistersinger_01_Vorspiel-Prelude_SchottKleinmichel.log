@@ -1,0 +1,23 @@
+Attempting to parse WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.mscx
+Done parsing WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.mscx
+
+Failed to expand labels due to syntactic errors:
+8 organ points started, 7 ended! Beginnings:
+30        V
+162       I
+187       V
+197       V
+370       V
+395    bVII
+516       V
+718       V
+Name: pedal, dtype: object
+Endings:
+76     ]
+186    ]
+214    ]
+377    ]
+399    ]
+534    ]
+765    ]
+Name: pedalend, dtype: object
