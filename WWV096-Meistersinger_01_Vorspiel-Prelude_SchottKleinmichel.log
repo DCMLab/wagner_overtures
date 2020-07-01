@@ -1,23 +1,11 @@
 Attempting to parse WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.mscx
 Done parsing WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.mscx
 
+The following chords could not be parsed:
+      mc   mn onset             label
+395   92   92     0  .bVII[V7(4)/bIII
+407   94   94   3/8             .bVI6
+540  122  122     0         .bIII.I64
+647  136  136     0             .bIII
 Failed to expand labels due to syntactic errors:
-8 organ points started, 7 ended! Beginnings:
-30        V
-162       I
-187       V
-197       V
-370       V
-395    bVII
-516       V
-718       V
-Name: pedal, dtype: object
-Endings:
-76     ]
-186    ]
-214    ]
-377    ]
-399    ]
-534    ]
-765    ]
-Name: pedalend, dtype: object
+repl_spec() missing 1 required positional argument: 'special'
