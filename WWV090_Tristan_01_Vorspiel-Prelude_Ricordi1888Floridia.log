@@ -1,14 +1,13 @@
-Attempting to parse WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.mscx
-MC 1 seems to be a pickup measure but has not been excluded from bar count!
-Done parsing WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.mscx
+INFO     WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Attempting to parse WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.mscx
+WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 471 in MC 82 has has duration 1/56 and starts on 703/960, surpassing the measure length of 3/4
+WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 509 in MC 83 has has duration 1/56 and starts on 703/960, surpassing the measure length of 3/4
+WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 567 in MC 85 has has duration 3/4 and starts on 3/4, surpassing the measure length of 3/4
+WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 747 in MC 101 has has duration 3/8 and starts on 3/4, surpassing the measure length of 3/4
+WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 753 in MC 102 has has duration 1/4 and starts on 3/4, surpassing the measure length of 3/4
+WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 754 in MC 102 has has duration 1/4 and starts on 1, surpassing the measure length of 3/4
+WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 768 in MC 104 has has duration 3/8 and starts on 3/4, surpassing the measure length of 3/4
+WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 774 in MC 105 has has duration 1/4 and starts on 3/4, surpassing the measure length of 3/4
+WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 775 in MC 105 has has duration 1/4 and starts on 1, surpassing the measure length of 3/4
+WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
+INFO     WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Done parsing WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.mscx
 
-The following chords could not be parsed:
-     mc  mn onset        label
-43   22  22   3/8     .bII6/iv
-44   22  22   1/2   .bIIM65/iv
-179  60  60     0  .bIII64(13)
-180  60  60   1/4      .bIII64
-181  60  60   3/8  .bIII64(b6)
-189  62  62   1/4     .bII6/IV
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'

@@ -1,11 +1,38 @@
-Attempting to parse WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.mscx
-Done parsing WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.mscx
+INFO     WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.ms3 -- Attempting to parse WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.mscx
+WARNING  WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.ms3 -- Event 15 in MC 1 has has duration 1/4 and starts on 1, surpassing the measure length of 1
+WARNING  WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.ms3 -- Event 16 in MC 1 has has duration 1/4 and starts on 1, surpassing the measure length of 1
+WARNING  WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.ms3 -- Event 93 in MC 5 has has duration 1/2 and starts on 3/4, surpassing the measure length of 1
+WARNING  WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.ms3 -- Event 94 in MC 5 has has duration 1/2 and starts on 3/4, surpassing the measure length of 1
+WARNING  WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.ms3 -- Event 308 in MC 14 has has duration 1/4 and starts on 1, surpassing the measure length of 1
+WARNING  WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.ms3 -- Event 309 in MC 14 has has duration 1/4 and starts on 1, surpassing the measure length of 1
+WARNING  WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.ms3 -- Event 586 in MC 172 has has duration 1/2 and starts on 1, surpassing the measure length of 1
+WARNING  WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.ms3 -- Event 587 in MC 172 has has duration 1/2 and starts on 3/2, surpassing the measure length of 1
+INFO     WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.ms3 -- Done parsing WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.mscx
 
-The following chords could not be parsed:
-      mc   mn onset             label
-395   92   92     0  .bVII[V7(4)/bIII
-407   94   94   3/8             .bVI6
-540  122  122     0         .bIII.I64
-647  136  136     0             .bIII
-Failed to expand labels due to syntactic errors:
-repl_spec() missing 1 required positional argument: 'special'
+ERROR    WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel -- Could not expand labels due to errors:
+Traceback (most recent call last):
+  File "parallel_parse.py", line 79, in parse
+    expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 452, in __init__
+    df = self.propagate_pedal(df, cols=cols)
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 776, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended! Beginnings:\n{beginnings}\nEndings:\n{endings}"
+AssertionError: 8 organ points started, 7 ended! Beginnings:
+30        V
+162       I
+187       V
+197       V
+370       V
+395    bVII
+516       V
+718       V
+Name: pedal, dtype: object
+Endings:
+76     ]
+186    ]
+214    ]
+377    ]
+399    ]
+534    ]
+765    ]
+Name: pedalend, dtype: object
