@@ -15,24 +15,15 @@ Traceback (most recent call last):
     expanded = expand_labels(chord_list, column='label', regex=REGEX, chord_tones=True, groupby=None, logger_name=S.fname).df
   File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
     df = self.propagate_pedal(df, cols=cols)
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 745, in propagate_pedal
-    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended! Beginnings:\n{beginnings}\nEndings:\n{endings}"
-AssertionError: 8 organ points started, 7 ended! Beginnings:
-30        V
-162       I
-187       V
-197       V
-370       V
-395    bVII
-516       V
-718       V
-Name: pedal, dtype: object
-Endings:
-76     ]
-186    ]
-214    ]
-377    ]
-399    ]
-534    ]
-765    ]
-Name: pedalend, dtype: object
+  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
+    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
+AssertionError: 8 organ points started, 7 ended:
+    mc pedal    mc pedalend
+0    8     V    13        ]
+1   29     I    33        ]
+2   34     V    38        ]
+3   35     V    88        ]
+4   87     V    92        ]
+5   92  bVII   120        ]
+6  118     V   157        ]
+7  151     V  <NA>      NaN
