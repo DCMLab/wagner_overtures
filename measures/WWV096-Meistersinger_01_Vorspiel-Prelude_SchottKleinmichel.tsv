@@ -220,4 +220,4 @@ mc	mn	keysig	timesig	act_dur	offset	voices	repeats	volta	barline	numbering_offse
 219	219	0	4/4	1	0	2						220
 220	220	0	4/4	1	0	2						221
 221	221	0	4/4	1	0	2			double			222
-222	222	0	4/4	1	0	3	lastMeasure		end			
+222	222	0	4/4	1	0	3	lastMeasure		end			-1
