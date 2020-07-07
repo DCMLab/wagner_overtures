@@ -8,6 +8,5 @@ WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 754
 WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 768 in MC 104 has has duration 3/8 and starts on 3/4, surpassing the measure length of 3/4
 WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 774 in MC 105 has has duration 1/4 and starts on 3/4, surpassing the measure length of 3/4
 WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 775 in MC 105 has has duration 1/4 and starts on 1, surpassing the measure length of 3/4
-WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- MC 1 seems to be a pickup measure but has not been excluded from bar count!
 INFO     WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Done parsing WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.mscx
 

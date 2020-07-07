@@ -5008,7 +5008,7 @@ Vorspiel</text>
               </Note>
             </Chord>
           <Harmony>
-            <name>V[V(964)</name>
+            <name>V(964)</name>
             </Harmony>
           <Chord>
             <durationType>quarter</durationType>
@@ -7941,6 +7941,7 @@ Vorspiel</text>
             <actualNotes>5</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>5</text>
               </Number>
             <bracketType>2</bracketType>
@@ -12541,6 +12542,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -12959,6 +12961,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -13334,6 +13337,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -13673,6 +13677,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -14531,6 +14536,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -14655,6 +14661,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -14841,6 +14848,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -14917,6 +14925,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -15033,6 +15042,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -15109,6 +15119,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -15218,6 +15229,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -15389,6 +15401,7 @@ Vorspiel</text>
             <actualNotes>6</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>6</text>
               </Number>
             <bracketType>1</bracketType>
@@ -15661,6 +15674,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -15807,6 +15821,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -15886,6 +15901,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -16031,6 +16047,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -16201,6 +16218,7 @@ Vorspiel</text>
             <actualNotes>6</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>6</text>
               </Number>
             <bracketType>1</bracketType>
@@ -16507,6 +16525,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -16699,6 +16718,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -16912,6 +16932,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -17049,6 +17070,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -17200,6 +17222,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -17285,6 +17308,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -17442,6 +17466,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -17541,6 +17566,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -17633,6 +17659,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -17731,6 +17758,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -17820,6 +17848,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -17950,6 +17979,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -18028,6 +18058,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -18140,6 +18171,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -18227,6 +18259,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -18347,6 +18380,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -18446,6 +18480,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -18512,6 +18547,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -18574,6 +18610,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -18629,6 +18666,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -19504,6 +19542,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -19711,6 +19750,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -19808,6 +19848,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -19976,6 +20017,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -21748,6 +21790,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -21816,6 +21859,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -21931,6 +21975,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -22036,6 +22081,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -22180,6 +22226,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -22296,6 +22343,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -22891,6 +22939,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -22940,6 +22989,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -32968,6 +33018,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -33018,6 +33069,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -33068,6 +33120,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -33228,6 +33281,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -33275,6 +33329,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -33326,6 +33381,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -33460,6 +33516,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -33507,6 +33564,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -33557,6 +33615,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -33607,6 +33666,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -33783,6 +33843,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -33830,6 +33891,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -33877,6 +33939,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -33984,6 +34047,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -34031,6 +34095,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -34081,6 +34146,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -34131,6 +34197,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -34319,6 +34386,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -34363,6 +34431,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -42279,6 +42348,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>32nd</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -46228,6 +46298,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -47020,6 +47091,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -47186,6 +47258,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -47324,6 +47397,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -47389,6 +47463,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -47494,6 +47569,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -47811,6 +47887,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -47854,6 +47931,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -48262,6 +48340,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -48304,6 +48383,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -48394,6 +48474,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -48430,6 +48511,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -48563,6 +48645,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -48871,6 +48954,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -48944,6 +49028,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -49064,6 +49149,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -51860,6 +51946,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -51906,6 +51993,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60037,6 +60125,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -60090,6 +60179,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>16th</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>2</bracketType>
@@ -60189,6 +60279,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60232,6 +60323,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60272,6 +60364,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60312,6 +60405,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60359,6 +60453,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60399,6 +60494,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60442,6 +60538,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60482,6 +60579,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60535,6 +60633,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60583,6 +60682,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60629,6 +60729,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60675,6 +60776,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60726,6 +60828,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60766,6 +60869,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60809,6 +60913,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
@@ -60852,6 +60957,7 @@ Vorspiel</text>
             <actualNotes>3</actualNotes>
             <baseNote>eighth</baseNote>
             <Number>
+              <style>Tuplet</style>
               <text>3</text>
               </Number>
             <bracketType>1</bracketType>
