@@ -9,26 +9,3 @@ WARNING  WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.ms3 -- Event
 WARNING  WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.ms3 -- Event 587 in MC 172 has has duration 1/2 and starts on 3/2, surpassing the measure length of 1
 INFO     WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.ms3 -- Done parsing WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.mscx
 
-WARNING  WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.expand_labels -- The following chords could not be parsed:
-      mc   mn onset             label
-395   92   92     0  .bVII[V7(4)/bIII
-407   94   94   3/8             .bVI6
-540  122  122     0         .bIII.I64
-647  136  136     0             .bIII
-ERROR    WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel -- Could not expand labels due to errors:
-Traceback (most recent call last):
-  File "scripts/parallel_parse.py", line 93, in parse
-    expanded = expand_labels(chord_list, column='label', regex=regex, chord_tones=True, groupby=None, logger_name=S.fname).df
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 421, in __init__
-    df = self.propagate_pedal(df, cols=cols)
-  File "/home/hentsche/corpora/scripts/expand_labels.py", line 747, in propagate_pedal
-    assert n_b == n_e, f"{n_b} organ points started, {n_e} ended:\n{make_comparison()}"
-AssertionError: 6 organ points started, 7 ended:
-     mc pedal   mc pedalend
-0     8     V   13        ]
-1    29     I   33        ]
-2    34     V   38        ]
-3    87     V   88        ]
-4   118     V   92        ]
-5   151     V  120        ]
-6  <NA>   NaN  157        ]
