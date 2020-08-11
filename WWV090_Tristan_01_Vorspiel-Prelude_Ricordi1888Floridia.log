@@ -10,3 +10,11 @@ WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 774
 WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Event 775 in MC 105 has has duration 1/4 and starts on 1, surpassing the measure length of 3/4
 INFO     WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.ms3 -- Done parsing WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.mscx
 
+WARNING  WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.expand_labels -- The following chords could not be parsed:
+     mc  mn onset        label
+43   22  21   3/8     .bII6/iv
+44   22  21   1/2   .bIIM65/iv
+179  60  59     0  .bIII64(13)
+180  60  59   1/4      .bIII64
+181  60  59   3/8  .bIII64(b6)
+189  62  61   1/4     .bII6/IV
