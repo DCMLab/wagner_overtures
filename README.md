@@ -10,4 +10,4 @@ Two annotated piano reductions
 |WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel|     222|  1075|2.1.0   |Adrian Nagel|
 
 
-*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.0.0beta.*
+*Overview table updated using [ms3](https://johentsch.github.io/ms3/) 1.0.1.*
