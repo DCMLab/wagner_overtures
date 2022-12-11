@@ -13,7 +13,7 @@ jobs:
      (github.event.pusher.name == 'github-actions[bot]' && github.event == 'pull_request')
      || github.event.head_commit.message == 'trigger_workflow'
      || github.event.pull_request.title == 'PR to check for errors'
-     || (github.event.pusher.name != 'ms3_bot' &&  github.event.pusher.name != 'github-actions[bot]')
+     || (github.actor != 'ms3-bot' && github.event.pusher.name != 'ms3_bot' &&  github.event.pusher.name != 'github-actions[bot]')
     runs-on: ubuntu-latest
     steps:
 
@@ -47,7 +47,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run 'ms3 review' via dcml_corpus_workflow action
-        uses: DCMLab/dcml_corpus_workflow@v2.5.0 # Uses an action in the root directory
+        uses: DCMLab/dcml_corpus_workflow@v2.5.3
         id: act_docker
         # working-directory: ${{ github.repository.name }}
         # needs to become a parameter/env variable
