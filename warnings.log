@@ -1,0 +1,24 @@
+Warnings encountered during the last execution of ms3 review (v1.0.2)
+=====================================================================
+
+DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 87, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4123) features2tpcs():
+	MC 87: V64(6b5) results in a chord tone 5 AND its replacement(s) [2].DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 71, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4123) features2tpcs():
+	MC 71: V64(6b5) results in a chord tone 5 AND its replacement(s) [2].DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 106, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4123) features2tpcs():
+	MC 106: V64(6b5) results in a chord tone 5 AND its replacement(s) [5].DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 7, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia -- /usr/local/lib/python3.10/site-packages/ms3/utils.py (line 4123) features2tpcs():
+	MC 7: V64(6b5) results in a chord tone 5 AND its replacement(s) [2].Chord labels where the ratio of colored notes vs. all notes in a segment lies above 0.6:
+                                                                                           mc   mn mc_onset          label        chord_tones added_tones  n_colored  n_untouched  count_ratio
+wagner_overtures MS3/WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia.mscx     53    24   23      1/8            V/V          (5, 9, 6)          ()        2.0          1.0     0.666667
+                                                                                     159   55   54      3/8       iv6(6#4)     (-1, 15, 5, 2)          ()        5.0          2.0     0.714286
+                                                                                     160   55   54      5/8            iv6         (-1, 3, 2)          ()        2.0          1.0     0.666667
+                                                                                     273   81   80      5/8        V64(#9)          (5, 4, 8)        (6,)        5.0          2.0     0.714286
+                                                                                     274   81   80    23/32            V64          (5, 4, 8)          ()        3.0          0.0     1.000000
+                                                                                     277   82   81      5/8             V6          (8, 5, 4)          ()        8.0          3.0     0.727273
+                                                                                     281   83   82      5/8             V6          (8, 5, 4)          ()        8.0          3.0     0.727273
+                 MS3/WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel.mscx 129   23   23      5/8        viio7/V      (7, 4, 1, -2)          ()        1.0          0.0     1.000000
+                                                                                     272   55   55      1/2        viio7/V      (6, 3, 0, -3)          ()        5.0          0.0     1.000000
+                                                                                     273   55   55      3/4             V2      (-1, 1, 5, 2)          ()        5.0          2.0     0.714286
+                                                                                     416   95   95      7/8  III.#vii%7/vi     (12, 9, 6, 10)          ()        3.0          0.0     1.000000
+                                                                                     579  126  126      5/6          viio6        (-1, -4, 2)          ()        2.0          1.0     0.666667
+                                                                                     605  130  130      5/8     viio65/iii  (-4, -7, -10, -1)          ()        6.0          0.0     1.000000
+                                                                                     606  130  130      3/4     viio43/iii  (-7, -10, -1, -4)          ()        8.0          0.0     1.000000
+                                                                                     642  135  135     5/12       #viio/ii         (4, 1, -2)          ()        1.0          0.0     1.000000
