@@ -12,4 +12,4 @@ Please note that the `meta_ corpora` branch should be used with collections of c
 |WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel|     222|  1075|2.1.0   |Adrian Nagel|
 
 
-*Overview table automatically updated using [ms3](https://johentsch.github.io/ms3/).*
+*Overview table automatically updated using [ms3](https://ms3.readthedocs.io/).*
