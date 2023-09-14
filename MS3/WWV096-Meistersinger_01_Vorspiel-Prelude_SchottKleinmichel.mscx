@@ -139,7 +139,6 @@
             <velocity>112</velocity>
             </Dynamic>
           <StaffText>
-            <family>FreeSerif</family>
             <offset x="-8.65551" y="-5.48678"/>
             <text><b><font size="11.7195"></font><font face="Plantin MT Std"></font>Sehr mäßig bewegt, durchweg breit und gewichtig</b></text>
             </StaffText>
@@ -2834,7 +2833,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>meno </i></text>
             </StaffText>
           <Dynamic>
@@ -2873,7 +2871,6 @@
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>espressivo</i></text>
             </StaffText>
           <Chord>
@@ -3117,7 +3114,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>più </i></text>
             </StaffText>
           <Dynamic>
@@ -3325,7 +3321,6 @@
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dim.</i></text>
             </StaffText>
           <Spanner type="HairPin">
@@ -3712,7 +3707,6 @@
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dim.</i></text>
             </StaffText>
           <Chord>
@@ -3948,7 +3942,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dolce.</i></text>
             </StaffText>
           <Chord>
@@ -4866,7 +4859,6 @@
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>stacc.</i></text>
             </StaffText>
           <Chord>
@@ -5370,7 +5362,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>ben tenuto</i></text>
             </StaffText>
           <Chord>
@@ -7226,7 +7217,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>sempre </i></text>
             </StaffText>
           <Dynamic>
@@ -8121,7 +8111,6 @@
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>espress.</i></text>
             </StaffText>
           <Beam>
@@ -11253,7 +11242,6 @@
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dim.</i></text>
             </StaffText>
           <Beam>
@@ -12060,7 +12048,6 @@
             </Dynamic>
           <StaffText>
             <placement>below</placement>
-            <family>FreeSerif</family>
             <offset x="-0.337367" y="15.902"/>
             <text><font size="11.7195"></font><font face="Plantin MT Std"></font><b>Mäßig im Hauptzeitmaß.</b></text>
             </StaffText>
@@ -12074,7 +12061,6 @@
             </Chord>
           <StaffText>
             <placement>below</placement>
-            <family>FreeSerif</family>
             <offset x="-7.43017" y="13.7089"/>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dolcissimo ed espressivo</i></text>
             </StaffText>
@@ -13918,7 +13904,6 @@
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dolce</i></text>
             </StaffText>
           <Chord>
@@ -14696,7 +14681,6 @@
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dolce.</i></text>
             </StaffText>
           <Chord>
@@ -15488,7 +15472,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>poco cresc.</i></text>
             </StaffText>
           <Beam>
@@ -16231,7 +16214,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>molto cresc.</i></text>
             </StaffText>
           <Beam>
@@ -16663,7 +16645,6 @@
             </Dynamic>
           <StaffText>
             <placement>below</placement>
-            <family>FreeSerif</family>
             <offset x="-0.756564" y="12.9295"/>
             <text><font size="11.7195"></font><font face="Plantin MT Std"></font><b>Im mäßigen Hauptzeitmaß.</b></text>
             </StaffText>
@@ -16823,7 +16804,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>molto staccato</i></text>
             </StaffText>
           <Rest>
@@ -17271,7 +17251,6 @@
             <durationType>eighth</durationType>
             </Rest>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>cresc.</i></text>
             </StaffText>
           <Tuplet>
@@ -19411,7 +19390,6 @@
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>cresc.</i></text>
             </StaffText>
           <Chord>
@@ -19971,7 +19949,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>molto cresc.</i></text>
             </StaffText>
           <Beam>
@@ -20339,7 +20316,6 @@
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dim.</i></text>
             </StaffText>
           <Chord>
@@ -20854,7 +20830,6 @@
             <durationType>eighth</durationType>
             </Rest>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>poco cresc.</i></text>
             </StaffText>
           <Beam>
@@ -21313,7 +21288,6 @@
             <durationType>eighth</durationType>
             </Rest>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>un poco cresc.</i></text>
             </StaffText>
           <Chord>
@@ -21664,7 +21638,6 @@
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>sempre un poco cresc.</i></text>
             </StaffText>
           <Chord>
@@ -22495,7 +22468,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>molto cresc.</i></text>
             </StaffText>
           <Spanner type="HairPin">
@@ -22687,7 +22659,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>più </i></text>
             </StaffText>
           <Dynamic>
@@ -22699,7 +22670,6 @@
             <durationType>half</durationType>
             </Rest>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>molto espress.</i></text>
             </StaffText>
           <Rest>
@@ -23124,7 +23094,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>marcato</i></text>
             </StaffText>
           <Beam>
@@ -26253,7 +26222,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>poco a poco cresc.</i></text>
             </StaffText>
           <Beam>
@@ -27595,7 +27563,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>più </i></text>
             </StaffText>
           <Dynamic>
@@ -28814,7 +28781,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>sempre più </i></text>
             </StaffText>
           <Dynamic>
@@ -31019,7 +30985,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="11.7195"></font><font face="Plantin MT Std"></font><b>Sehr gewichtig.</b></text>
             </StaffText>
           <Chord>
@@ -42659,7 +42624,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>sempre</i></text>
             </StaffText>
           <Harmony>
@@ -54300,7 +54264,6 @@
             <name>keyboardPedalPed</name>
             </Symbol>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>marcato</i></text>
             </StaffText>
           <Spanner type="Pedal">
@@ -57945,7 +57908,6 @@
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>stacc.</i></text>
             </StaffText>
           <Harmony>
