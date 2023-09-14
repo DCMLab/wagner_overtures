@@ -168,15 +168,20 @@
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-09-15</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Die_Meistersinger_von_N%C3%BCrnberg,_WWV_96_(Wagner,_Richard)</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle">Vorspiel</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/6b198406-4fbf-3d61-82db-0b7ef195a7fe</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
+    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/252931</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/59819198</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q465540</metaTag>
     <metaTag name="workNumber">WWV 96</metaTag>
     <metaTag name="workTitle">Die Meistersinger von Nürnberg</metaTag>
     <Part>
@@ -271,7 +276,7 @@
           <StaffText>
             <family>FreeSerif</family>
             <offset x="-8.65551" y="-5.48678"/>
-            <text><b><font size="11.7195"/><font face="Plantin MT Std"/>Sehr mäßig bewegt, durchweg breit und gewichtig</b></text>
+            <text><b><font size="11.7195"></font><font face="Plantin MT Std"></font>Sehr mäßig bewegt, durchweg breit und gewichtig</b></text>
             </StaffText>
           <Tempo>
             <tempo>1.6666700000000001</tempo>

@@ -168,15 +168,20 @@
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-11-01</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Tristan_und_Isolde,_WWV_90_(Wagner,_Richard)</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
     <metaTag name="movementTitle">Erster Aufzug</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/52836ec3-2272-37cd-a4af-20ab3bf56b88</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
+    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/21459</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/180184935</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q1324254</metaTag>
     <metaTag name="workNumber">WWV 90</metaTag>
     <metaTag name="workTitle">Tristan und Isolde</metaTag>
     <Part>
