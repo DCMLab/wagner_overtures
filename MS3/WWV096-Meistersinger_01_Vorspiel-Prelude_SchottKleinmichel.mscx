@@ -7,18 +7,11 @@
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
-      <pageWidth>7.87403</pageWidth>
-      <pageHeight>11.696</pageHeight>
-      <pagePrintableWidth>6.69529</pagePrintableWidth>
-      <pageEvenLeftMargin>0.58937</pageEvenLeftMargin>
-      <pageOddLeftMargin>0.58937</pageOddLeftMargin>
-      <pageEvenTopMargin>0.58937</pageEvenTopMargin>
-      <pageEvenBottomMargin>0.58937</pageEvenBottomMargin>
-      <pageOddTopMargin>0.58937</pageOddTopMargin>
-      <pageOddBottomMargin>0.58937</pageOddBottomMargin>
-      <pageTwosided>0</pageTwosided>
+      <pageWidth>8.27008</pageWidth>
+      <pageHeight>11.6902</pageHeight>
+      <pageEvenLeftMargin>0.592913</pageEvenLeftMargin>
       <enableVerticalSpread>1</enableVerticalSpread>
-      <Spatium>1.176</Spatium>
+      <Spatium>1.75</Spatium>
       </Style>
     <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
@@ -113,7 +106,7 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>14.4399</height>
+        <height>11.5223</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
