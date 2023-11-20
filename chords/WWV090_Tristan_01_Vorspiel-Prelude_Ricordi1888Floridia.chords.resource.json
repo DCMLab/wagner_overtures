@@ -174,17 +174,17 @@
         "type": "string"
       },
       {
-        "name": "crescendo_hairpin",
+        "name": "decrescendo_hairpin",
         "type": "string"
       },
       {
-        "name": "decrescendo_hairpin",
+        "name": "crescendo_hairpin",
         "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "pNzCrFro1AoEsQ",
-    "filepath": "chords/pNzCrFro1AoEsQ.schema.yaml",
+    "identifier": "rSpe7F0vklKopg",
+    "filepath": "chords/rSpe7F0vklKopg.schema.yaml",
     "used_in": "WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia"
   },
   "creator": {
@@ -197,8 +197,6 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.0"
-  },
-  "git_revision": "3d8712d81d6731cdecf2a28ec5b190df56d61e05",
-  "git_tag": "v2.1"
+    "softwareVersion": "0.0.post1.dev1+gee402e3"
+  }
 }
