@@ -12,7 +12,7 @@ and serves as welcome page for both
 
 For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/wagner_overtures/introduction).
 
-# Richard Wagner – Overtures (v2.1)
+# Richard Wagner – Overtures (v2.2)
 
 
 ## Version history
