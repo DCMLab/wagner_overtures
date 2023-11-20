@@ -37,7 +37,7 @@ To reproduce: frictionless validate WWV090_Tristan_01_Vorspiel-Prelude_Ricordi18
             'bass_note'],
  'stats': {'errors': 2,
            'warnings': 0,
-           'seconds': 0.023,
+           'seconds': 0.022,
            'md5': 'f6742b60d6053287e11357796761e51a',
            'sha256': '554a1c047d03c01ea6bdc295738be49c63c2cd30f4ef64d69b3b080810004492',
            'bytes': 33646,
