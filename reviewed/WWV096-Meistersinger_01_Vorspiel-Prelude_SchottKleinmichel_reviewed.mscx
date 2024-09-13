@@ -7,178 +7,40 @@
     <currentLayer>0</currentLayer>
     <Division>480</Division>
     <Style>
-      <pageWidth>7.87403</pageWidth>
-      <pageHeight>11.696</pageHeight>
-      <pagePrintableWidth>6.69529</pagePrintableWidth>
-      <pageEvenLeftMargin>0.58937</pageEvenLeftMargin>
-      <pageOddLeftMargin>0.58937</pageOddLeftMargin>
-      <pageEvenTopMargin>0.58937</pageEvenTopMargin>
-      <pageEvenBottomMargin>0.58937</pageEvenBottomMargin>
-      <pageOddTopMargin>0.58937</pageOddTopMargin>
-      <pageOddBottomMargin>0.58937</pageOddBottomMargin>
-      <pageTwosided>0</pageTwosided>
-      <minSystemDistance>15.2</minSystemDistance>
-      <maxSystemDistance>20</maxSystemDistance>
-      <lyricsMinDistance>0.25</lyricsMinDistance>
-      <lyricsDashForce>0</lyricsDashForce>
-      <lyricsDashYposRatio>0.6</lyricsDashYposRatio>
-      <lyricsOddFontFace>Edwin</lyricsOddFontFace>
-      <lyricsOddFontSize>10</lyricsOddFontSize>
-      <lyricsOddFramePadding>0</lyricsOddFramePadding>
-      <lyricsOddFrameWidth>0</lyricsOddFrameWidth>
-      <lyricsEvenFontFace>Edwin</lyricsEvenFontFace>
-      <lyricsEvenFontSize>10</lyricsEvenFontSize>
-      <lyricsEvenFramePadding>0</lyricsEvenFramePadding>
-      <lyricsEvenFrameWidth>0</lyricsEvenFrameWidth>
-      <barWidth>0.18</barWidth>
-      <doubleBarWidth>0.18</doubleBarWidth>
-      <endBarWidth>0.55</endBarWidth>
-      <doubleBarDistance>0.55</doubleBarDistance>
-      <endBarDistance>0.7</endBarDistance>
-      <repeatBarlineDotSeparation>0.7</repeatBarlineDotSeparation>
-      <bracketWidth>0.44</bracketWidth>
-      <clefLeftMargin>0.64</clefLeftMargin>
-      <clefKeyRightMargin>1.75</clefKeyRightMargin>
-      <stemWidth>0.11</stemWidth>
-      <barNoteDistance>1.2</barNoteDistance>
-      <staffLineWidth>0.11</staffLineWidth>
-      <ledgerLineLength>0.35</ledgerLineLength>
-      <hairpinWidth>0.12</hairpinWidth>
-      <hairpinFontFace>Edwin</hairpinFontFace>
-      <hairpinFontSize>10</hairpinFontSize>
-      <pedalLineWidth>0.11</pedalLineWidth>
-      <pedalFontFace>Edwin</pedalFontFace>
-      <harmonyFretDist>0.5</harmonyFretDist>
-      <harmonyPlay>0</harmonyPlay>
-      <chordSymbolPosBelow x="0" y="-6"/>
-      <chordSymbolAFontFace>Edwin</chordSymbolAFontFace>
-      <chordSymbolAFontSize>11</chordSymbolAFontSize>
-      <chordSymbolBFontFace>Edwin</chordSymbolBFontFace>
-      <chordSymbolBFontSize>11</chordSymbolBFontSize>
-      <nashvilleNumberFontFace>Edwin</nashvilleNumberFontFace>
-      <slurMidWidth>0.21</slurMidWidth>
-      <musicalSymbolFont>Leland</musicalSymbolFont>
-      <musicalTextFont>Leland Text</musicalTextFont>
-      <voltaLineWidth>0.11</voltaLineWidth>
-      <ottavaLineWidth>0.11</ottavaLineWidth>
-      <ottavaFontFace>Edwin</ottavaFontFace>
-      <tupletFontFace>Edwin</tupletFontFace>
-      <tupletFontSize>9</tupletFontSize>
-      <defaultFontFace>Edwin</defaultFontFace>
-      <defaultFramePadding>0.5</defaultFramePadding>
-      <defaultFrameWidth>0.2</defaultFrameWidth>
-      <defaultFrameRound>25</defaultFrameRound>
-      <titleFontFace>Edwin</titleFontFace>
-      <titleFontSize>22</titleFontSize>
-      <titleFramePadding>0.5</titleFramePadding>
-      <titleFrameWidth>0.2</titleFrameWidth>
-      <titleFrameRound>25</titleFrameRound>
-      <subTitleFontFace>Edwin</subTitleFontFace>
-      <subTitleFontSize>16</subTitleFontSize>
-      <subTitleFramePadding>0.5</subTitleFramePadding>
-      <subTitleFrameWidth>0.2</subTitleFrameWidth>
-      <subTitleFrameRound>25</subTitleFrameRound>
-      <composerFontFace>Edwin</composerFontFace>
-      <composerFontSize>10</composerFontSize>
-      <composerFramePadding>0.5</composerFramePadding>
-      <composerFrameWidth>0.2</composerFrameWidth>
-      <composerFrameRound>25</composerFrameRound>
-      <lyricistFontFace>Edwin</lyricistFontFace>
-      <lyricistFontSize>10</lyricistFontSize>
-      <lyricistFramePadding>0.5</lyricistFramePadding>
-      <lyricistFrameWidth>0.2</lyricistFrameWidth>
-      <lyricistFrameRound>25</lyricistFrameRound>
-      <fingeringFontFace>Edwin</fingeringFontFace>
-      <fingeringFramePadding>0.5</fingeringFramePadding>
-      <fingeringFrameWidth>0.2</fingeringFrameWidth>
-      <fingeringFrameRound>25</fingeringFrameRound>
-      <lhGuitarFingeringFontFace>Edwin</lhGuitarFingeringFontFace>
-      <lhGuitarFingeringFramePadding>0.5</lhGuitarFingeringFramePadding>
-      <lhGuitarFingeringFrameWidth>0.2</lhGuitarFingeringFrameWidth>
-      <lhGuitarFingeringFrameRound>25</lhGuitarFingeringFrameRound>
-      <rhGuitarFingeringFontFace>Edwin</rhGuitarFingeringFontFace>
-      <rhGuitarFingeringFontStyle>2</rhGuitarFingeringFontStyle>
-      <rhGuitarFingeringFramePadding>0.5</rhGuitarFingeringFramePadding>
-      <rhGuitarFingeringFrameWidth>0.2</rhGuitarFingeringFrameWidth>
-      <rhGuitarFingeringFrameRound>25</rhGuitarFingeringFrameRound>
-      <stringNumberFontFace>Edwin</stringNumberFontFace>
-      <longInstrumentFontFace>Edwin</longInstrumentFontFace>
-      <longInstrumentFontSize>10</longInstrumentFontSize>
-      <shortInstrumentFontFace>Edwin</shortInstrumentFontFace>
-      <shortInstrumentFontSize>10</shortInstrumentFontSize>
-      <partInstrumentFontFace>Edwin</partInstrumentFontFace>
-      <partInstrumentFontSize>14</partInstrumentFontSize>
-      <partInstrumentFramePadding>0.5</partInstrumentFramePadding>
-      <partInstrumentFrameWidth>0.2</partInstrumentFrameWidth>
-      <partInstrumentFrameRound>25</partInstrumentFrameRound>
-      <dynamicsFontFace>Edwin</dynamicsFontFace>
-      <dynamicsFontSize>11</dynamicsFontSize>
-      <expressionFontFace>Edwin</expressionFontFace>
-      <expressionFontSize>10</expressionFontSize>
-      <tempoFontFace>Edwin</tempoFontFace>
-      <tempoFramePadding>0.5</tempoFramePadding>
-      <tempoFrameWidth>0.2</tempoFrameWidth>
-      <tempoFrameRound>25</tempoFrameRound>
-      <metronomeFontFace>Edwin</metronomeFontFace>
-      <metronomeFontStyle>0</metronomeFontStyle>
-      <measureNumberFontFace>Edwin</measureNumberFontFace>
-      <measureNumberFontSpatiumDependent>0</measureNumberFontSpatiumDependent>
-      <measureNumberFontStyle>2</measureNumberFontStyle>
-      <translatorFontFace>Edwin</translatorFontFace>
-      <translatorFontSize>10</translatorFontSize>
-      <systemFontFace>Edwin</systemFontFace>
-      <systemFramePadding>0.5</systemFramePadding>
-      <systemFrameWidth>0.2</systemFrameWidth>
-      <systemFrameRound>25</systemFrameRound>
-      <staffFontFace>Edwin</staffFontFace>
-      <staffAlign>left,top</staffAlign>
-      <staffPosAbove x="0" y="-4"/>
-      <staffFramePadding>0.5</staffFramePadding>
-      <staffFrameWidth>0.2</staffFrameWidth>
-      <staffFrameRound>25</staffFrameRound>
-      <rehearsalMarkFontFace>Edwin</rehearsalMarkFontFace>
-      <rehearsalMarkFrameWidth>0.16</rehearsalMarkFrameWidth>
-      <rehearsalMarkFrameRound>0</rehearsalMarkFrameRound>
-      <repeatLeftFontFace>Edwin</repeatLeftFontFace>
-      <repeatLeftFontSize>18</repeatLeftFontSize>
-      <repeatLeftFramePadding>0.5</repeatLeftFramePadding>
-      <repeatLeftFrameWidth>0.2</repeatLeftFrameWidth>
-      <repeatLeftFrameRound>25</repeatLeftFrameRound>
-      <repeatRightFontFace>Edwin</repeatRightFontFace>
-      <repeatRightFontSize>11</repeatRightFontSize>
-      <repeatRightFramePadding>0.5</repeatRightFramePadding>
-      <repeatRightFrameWidth>0.2</repeatRightFrameWidth>
-      <repeatRightFrameRound>25</repeatRightFrameRound>
-      <frameFontFace>Edwin</frameFontFace>
-      <frameFontSize>10</frameFontSize>
-      <usePre_3_6_defaults>1</usePre_3_6_defaults>
-      <defaultsVersion>301</defaultsVersion>
-      <Spatium>1.176</Spatium>
-      <romanNumeralPlacement>1</romanNumeralPlacement>
+      <pageWidth>8.27008</pageWidth>
+      <pageHeight>11.6902</pageHeight>
+      <pageEvenLeftMargin>0.592913</pageEvenLeftMargin>
+      <enableVerticalSpread>1</enableVerticalSpread>
+      <Spatium>1.75</Spatium>
       </Style>
-    <showInvisible>0</showInvisible>
+    <showInvisible>1</showInvisible>
     <showUnprintable>1</showUnprintable>
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="P86 (composer)">Q1511</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
-    <metaTag name="compared_against">v2.1</metaTag>
     <metaTag name="composed_end">1867</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/Die_Meistersinger_von_N%C3%BCrnberg</metaTag>
     <metaTag name="composed_start">1845</metaTag>
     <metaTag name="composer">Richard Wagner</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-09-15</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Die_Meistersinger_von_N%C3%BCrnberg%2C_WWV_96_(Wagner%2C_Richard)</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle">Vorspiel</metaTag>
+    <metaTag name="movementTitle">Prelude</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/6b198406-4fbf-3d61-82db-0b7ef195a7fe</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
+    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/515499</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/59819198</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q465540</metaTag>
     <metaTag name="workNumber">WWV 96</metaTag>
     <metaTag name="workTitle">Die Meistersinger von Nürnberg</metaTag>
     <Part>
@@ -192,15 +54,16 @@
           </StaffType>
         <defaultClef>F</defaultClef>
         </Staff>
-      <trackName>P1</trackName>
-      <Instrument id="grand-piano">
-        <longName>P1</longName>
-        <trackName>Piano (2)</trackName>
+      <trackName>Piano</trackName>
+      <Instrument id="piano">
+        <longName>Piano</longName>
+        <shortName>Pno.</shortName>
+        <trackName>Piano</trackName>
         <minPitchP>21</minPitchP>
         <maxPitchP>108</maxPitchP>
         <minPitchA>21</minPitchA>
         <maxPitchA>108</maxPitchA>
-        <instrumentId>keyboard.piano.grand</instrumentId>
+        <instrumentId>keyboard.piano</instrumentId>
         <clef staff="2">F</clef>
         <Articulation>
           <velocity>100</velocity>
@@ -244,15 +107,19 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>10</height>
+        <height>13.6653</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <family>FreeSerif</family>
-          <size>24</size>
-          <offset x="0.993959" y="-5.09177"/>
-          <text><font size="19.8115"></font><font face="Plantin MT Std"></font>Die Meistersinger von Nürnberg
-Vorspiel</text>
+          <text>Prelude</text>
+          </Text>
+        <Text>
+          <style>Subtitle</style>
+          <text>from: Die Meistersinger von Nürnberg</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Richard Wagner</text>
           </Text>
         </VBox>
       <Measure>
@@ -266,14 +133,14 @@ Vorspiel</text>
             <velocity>112</velocity>
             </Dynamic>
           <StaffText>
-            <family>FreeSerif</family>
-            <offset x="-9.37162" y="-13.7937"/>
-            <text><font size="11.7195"></font><font face="Plantin MT Std"></font><b>Sehr mäßig bewegt</b></text>
+            <offset x="-8.65551" y="-5.48678"/>
+            <text><b><font size="11.7195"></font><font face="Plantin MT Std"></font>Sehr mäßig bewegt, durchweg breit und gewichtig</b></text>
             </StaffText>
           <Tempo>
             <tempo>1.6666700000000001</tempo>
             <followText>1</followText>
-            <offset x="-9.20786" y="-15.0036"/>
+            <visible>0</visible>
+            <offset x="-4.62473" y="-6.83991"/>
             <text><sym>metNoteQuarterUp</sym> = 100</text>
             </Tempo>
           <Chord>
@@ -2974,7 +2841,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>meno </i></text>
             </StaffText>
           <Dynamic>
@@ -3013,7 +2879,6 @@ Vorspiel</text>
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>espressivo</i></text>
             </StaffText>
           <Chord>
@@ -3263,7 +3128,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>più </i></text>
             </StaffText>
           <Dynamic>
@@ -3474,7 +3338,6 @@ Vorspiel</text>
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dim.</i></text>
             </StaffText>
           <Spanner type="HairPin">
@@ -3660,7 +3523,8 @@ Vorspiel</text>
               </HairPin>
             <next>
               <location>
-                <fractions>3/8</fractions>
+                <measures>1</measures>
+                <fractions>-1/2</fractions>
                 </location>
               </next>
             </Spanner>
@@ -3707,13 +3571,6 @@ Vorspiel</text>
               <tpc>14</tpc>
               </Note>
             </Chord>
-          <Spanner type="HairPin">
-            <prev>
-              <location>
-                <fractions>-3/8</fractions>
-                </location>
-              </prev>
-            </Spanner>
           </voice>
         <voice>
           <Chord>
@@ -3764,6 +3621,14 @@ Vorspiel</text>
         </Measure>
       <Measure>
         <voice>
+          <Spanner type="HairPin">
+            <prev>
+              <location>
+                <measures>-1</measures>
+                <fractions>1/2</fractions>
+                </location>
+              </prev>
+            </Spanner>
           <Spanner type="HairPin">
             <HairPin>
               <subtype>1</subtype>
@@ -3865,7 +3730,6 @@ Vorspiel</text>
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dim.</i></text>
             </StaffText>
           <Chord>
@@ -4103,7 +3967,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dolce.</i></text>
             </StaffText>
           <Chord>
@@ -5029,7 +4892,6 @@ Vorspiel</text>
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>stacc.</i></text>
             </StaffText>
           <Chord>
@@ -5545,7 +5407,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>ben tenuto</i></text>
             </StaffText>
           <Chord>
@@ -7419,7 +7280,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>sempre </i></text>
             </StaffText>
           <Dynamic>
@@ -8342,7 +8202,6 @@ Vorspiel</text>
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>espress.</i></text>
             </StaffText>
           <Beam>
@@ -11546,7 +11405,6 @@ Vorspiel</text>
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dim.</i></text>
             </StaffText>
           <Beam>
@@ -12364,7 +12222,6 @@ Vorspiel</text>
             </Dynamic>
           <StaffText>
             <placement>below</placement>
-            <family>FreeSerif</family>
             <offset x="-0.337367" y="15.902"/>
             <text><font size="11.7195"></font><font face="Plantin MT Std"></font><b>Mäßig im Hauptzeitmaß.</b></text>
             </StaffText>
@@ -12378,7 +12235,6 @@ Vorspiel</text>
             </Chord>
           <StaffText>
             <placement>below</placement>
-            <family>FreeSerif</family>
             <offset x="-7.43017" y="13.7089"/>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dolcissimo ed espressivo</i></text>
             </StaffText>
@@ -14255,7 +14111,6 @@ Vorspiel</text>
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dolce</i></text>
             </StaffText>
           <Chord>
@@ -14891,7 +14746,7 @@ Vorspiel</text>
               </HairPin>
             <next>
               <location>
-                <fractions>1/4</fractions>
+                <fractions>1/8</fractions>
                 </location>
               </next>
             </Spanner>
@@ -14915,7 +14770,7 @@ Vorspiel</text>
           <Spanner type="HairPin">
             <prev>
               <location>
-                <fractions>-1/4</fractions>
+                <fractions>-1/8</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -15047,7 +14902,6 @@ Vorspiel</text>
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dolce.</i></text>
             </StaffText>
           <Chord>
@@ -15072,7 +14926,7 @@ Vorspiel</text>
               </HairPin>
             <next>
               <location>
-                <fractions>1/4</fractions>
+                <fractions>7/24</fractions>
                 </location>
               </next>
             </Spanner>
@@ -15132,7 +14986,7 @@ Vorspiel</text>
           <Spanner type="HairPin">
             <prev>
               <location>
-                <fractions>-1/4</fractions>
+                <fractions>-7/24</fractions>
                 </location>
               </prev>
             </Spanner>
@@ -15844,7 +15698,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>poco cresc.</i></text>
             </StaffText>
           <Beam>
@@ -16598,7 +16451,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>molto cresc.</i></text>
             </StaffText>
           <Beam>
@@ -17037,7 +16889,6 @@ Vorspiel</text>
             </Dynamic>
           <StaffText>
             <placement>below</placement>
-            <family>FreeSerif</family>
             <offset x="-0.756564" y="12.9295"/>
             <text><font size="11.7195"></font><font face="Plantin MT Std"></font><b>Im mäßigen Hauptzeitmaß.</b></text>
             </StaffText>
@@ -17197,7 +17048,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>molto staccato</i></text>
             </StaffText>
           <Rest>
@@ -17652,7 +17502,6 @@ Vorspiel</text>
             <durationType>eighth</durationType>
             </Rest>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>cresc.</i></text>
             </StaffText>
           <Tuplet>
@@ -19830,7 +19679,6 @@ Vorspiel</text>
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>cresc.</i></text>
             </StaffText>
           <Chord>
@@ -20399,7 +20247,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>molto cresc.</i></text>
             </StaffText>
           <Beam>
@@ -20774,7 +20621,6 @@ Vorspiel</text>
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>dim.</i></text>
             </StaffText>
           <Chord>
@@ -21298,7 +21144,6 @@ Vorspiel</text>
             <durationType>eighth</durationType>
             </Rest>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>poco cresc.</i></text>
             </StaffText>
           <Beam>
@@ -21762,7 +21607,6 @@ Vorspiel</text>
             <durationType>eighth</durationType>
             </Rest>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>un poco cresc.</i></text>
             </StaffText>
           <Chord>
@@ -22119,7 +21963,6 @@ Vorspiel</text>
               </Note>
             </Chord>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>sempre un poco cresc.</i></text>
             </StaffText>
           <Chord>
@@ -22969,7 +22812,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>molto cresc.</i></text>
             </StaffText>
           <Spanner type="HairPin">
@@ -23165,7 +23007,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>più </i></text>
             </StaffText>
           <Dynamic>
@@ -23177,7 +23018,6 @@ Vorspiel</text>
             <durationType>half</durationType>
             </Rest>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>molto espress.</i></text>
             </StaffText>
           <Rest>
@@ -23604,7 +23444,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>marcato</i></text>
             </StaffText>
           <Beam>
@@ -26740,7 +26579,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>poco a poco cresc.</i></text>
             </StaffText>
           <Beam>
@@ -28121,7 +27959,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>più </i></text>
             </StaffText>
           <Dynamic>
@@ -29352,7 +29189,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>sempre più </i></text>
             </StaffText>
           <Dynamic>
@@ -31590,7 +31426,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="11.7195"></font><font face="Plantin MT Std"></font><b>Sehr gewichtig.</b></text>
             </StaffText>
           <Chord>
@@ -37800,14 +37635,14 @@ Vorspiel</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7(4)</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7(4)</name>
+            </Harmony>
           <Chord>
             <durationType>16th</durationType>
             <grace16/>
@@ -38168,14 +38003,14 @@ Vorspiel</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V7/IV</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V7/IV</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -43311,7 +43146,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>sempre</i></text>
             </StaffText>
           <Harmony>
@@ -44042,14 +43876,14 @@ Vorspiel</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V[I6</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V[I6</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -44242,14 +44076,14 @@ Vorspiel</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>vi7</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>vi7</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -46195,14 +46029,14 @@ Vorspiel</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii7</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii7</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -46321,14 +46155,14 @@ Vorspiel</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii7</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii7</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -47945,14 +47779,14 @@ Vorspiel</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>ii43</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>ii43</name>
+            </Harmony>
           <Tuplet>
             <normalNotes>2</normalNotes>
             <actualNotes>3</actualNotes>
@@ -47993,14 +47827,14 @@ Vorspiel</text>
               </Note>
             </Chord>
           <endTuplet/>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>IV</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>IV</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -48198,14 +48032,14 @@ Vorspiel</text>
             <accidental>0</accidental>
             <mode>major</mode>
             </KeySig>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V[V7(4)</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V[V7(4)</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>up</StemDirection>
@@ -48746,14 +48580,14 @@ Vorspiel</text>
             <accidental>-3</accidental>
             <mode>major</mode>
             </KeySig>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>bIII.I64</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>bIII.I64</name>
+            </Harmony>
           <Rest>
             <visible>0</visible>
             <durationType>eighth</durationType>
@@ -52140,14 +51974,14 @@ Vorspiel</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V6</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V6</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -52941,14 +52775,14 @@ Vorspiel</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V64</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V64</name>
+            </Harmony>
           <Chord>
             <durationType>quarter</durationType>
             <StemDirection>down</StemDirection>
@@ -53440,14 +53274,14 @@ Vorspiel</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio65/V</name>
-            </Harmony>
           <Clef>
             <concertClefType>G</concertClefType>
             <transposingClefType>G</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio65/V</name>
+            </Harmony>
           <Beam>
             <StemDirection>up</StemDirection>
             </Beam>
@@ -54128,15 +53962,15 @@ Vorspiel</text>
             <accidental>0</accidental>
             <mode>major</mode>
             </KeySig>
+          <Clef>
+            <concertClefType>F</concertClefType>
+            <transposingClefType>F</transposingClefType>
+            </Clef>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>I.V[viio64/V</name>
             <offset x="0" y="-9"/>
             </Harmony>
-          <Clef>
-            <concertClefType>F</concertClefType>
-            <transposingClefType>F</transposingClefType>
-            </Clef>
           <Symbol>
             <name>keyboardPedalPed</name>
             </Symbol>
@@ -54232,14 +54066,14 @@ Vorspiel</text>
         </Measure>
       <Measure>
         <voice>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio64(4)/V</name>
-            </Harmony>
           <Clef>
             <concertClefType>F</concertClefType>
             <transposingClefType>F</transposingClefType>
             </Clef>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>viio64(4)/V</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <Articulation>
@@ -55085,7 +54919,6 @@ Vorspiel</text>
             <name>keyboardPedalPed</name>
             </Symbol>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>marcato</i></text>
             </StaffText>
           <Spanner type="Pedal">
@@ -56906,6 +56739,10 @@ Vorspiel</text>
             <harmonyType>1</harmonyType>
             <name>vi7</name>
             </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/iii</name>
+            </Harmony>
           <Chord>
             <durationType>half</durationType>
             <duration>1/4</duration>
@@ -56918,19 +56755,13 @@ Vorspiel</text>
               <subtype>c32</subtype>
               </Tremolo>
             </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/iii</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
           <Harmony>
             <harmonyType>1</harmonyType>
             <name>vi7</name>
+            </Harmony>
+          <Harmony>
+            <harmonyType>1</harmonyType>
+            <name>V2/iii</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
@@ -56941,16 +56772,6 @@ Vorspiel</text>
               <tpc>17</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/4</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V2/iii</name>
-            </Harmony>
-          <location>
-            <fractions>1/4</fractions>
-            </location>
           <Chord>
             <durationType>half</durationType>
             <duration>1/4</duration>
@@ -58761,7 +58582,6 @@ Vorspiel</text>
       <Measure>
         <voice>
           <StaffText>
-            <family>FreeSerif</family>
             <text><font size="10.7429"></font><font face="Plantin MT Std"></font><i>stacc.</i></text>
             </StaffText>
           <Harmony>
