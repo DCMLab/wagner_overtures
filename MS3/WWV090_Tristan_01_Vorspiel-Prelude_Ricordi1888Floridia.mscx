@@ -249,21 +249,15 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>9.5</height>
+        <height>13.8384</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <family>FreeSerif</family>
-          <size>24</size>
-          <offset x="0.813629" y="-9.23864"/>
-          <text><font size="17.2958"></font><font face="Plantin MT Std"></font>Tristan und Isolde</text>
+          <text>Prelude</text>
           </Text>
         <Text>
           <style>Subtitle</style>
-          <family>FreeSerif</family>
-          <size>14</size>
-          <offset x="0.325451" y="-3.86593"/>
-          <text><font size="10.9621"></font><font face="Plantin MT Std"></font>Erster Aufzug</text>
+          <text>from: Tristan und Isolde</text>
           </Text>
         <Text>
           <style>Composer</style>
@@ -283,13 +277,14 @@
             </Dynamic>
           <StaffText>
             <family>FreeSerif</family>
-            <offset x="-16.2726" y="-21.669"/>
+            <offset x="-4.49683" y="-6.29852"/>
             <text><font size="10.2313"></font><font face="Plantin MT Std"></font><b>Langsam und schmachtend</b></text>
             </StaffText>
           <Tempo>
             <tempo>1</tempo>
             <followText>1</followText>
-            <offset x="-16.4508" y="-22.8199"/>
+            <minDistance>-4.31626</minDistance>
+            <offset x="1.77066" y="-2.11933"/>
             <text><sym>metNoteQuarterUp</sym> = 60</text>
             </Tempo>
           <Spanner type="HairPin">

@@ -108,15 +108,15 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>11.5223</height>
+        <height>13.6653</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <text>Die Meistersinger von Nürnberg, WWV 96</text>
+          <text>Prelude</text>
           </Text>
         <Text>
           <style>Subtitle</style>
-          <text>Vorspiel</text>
+          <text>from: Die Meistersinger von Nürnberg</text>
           </Text>
         <Text>
           <style>Composer</style>
