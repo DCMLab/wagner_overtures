@@ -18,22 +18,24 @@
     <showFrames>1</showFrames>
     <showMargins>0</showMargins>
     <metaTag name="P86 (composer)">Q1511</metaTag>
+    <metaTag name="P86 (composer).1">Q1511</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1867</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/Die_Meistersinger_von_N%C3%BCrnberg</metaTag>
     <metaTag name="composed_start">1845</metaTag>
     <metaTag name="composer">Richard Wagner</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-09-15</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
-    <metaTag name="imslp">https://imslp.org/wiki/Die_Meistersinger_von_N%C3%BCrnberg,_WWV_96_(Wagner,_Richard)</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Die_Meistersinger_von_N%C3%BCrnberg%2C_WWV_96_(Wagner%2C_Richard)</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle">Vorspiel</metaTag>
+    <metaTag name="movementTitle">Prelude</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
     <metaTag name="musicbrainz">https://musicbrainz.org/work/6b198406-4fbf-3d61-82db-0b7ef195a7fe</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
-    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/252931</metaTag>
+    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/515499</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
