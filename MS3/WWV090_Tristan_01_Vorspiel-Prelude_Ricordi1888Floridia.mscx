@@ -265,6 +265,10 @@
           <offset x="0.325451" y="-3.86593"/>
           <text><font size="10.9621"></font><font face="Plantin MT Std"></font>Erster Aufzug</text>
           </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Richard Wagner</text>
+          </Text>
         </VBox>
       <Measure len="1/8">
         <irregular>1</irregular>
