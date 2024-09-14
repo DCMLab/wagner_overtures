@@ -12,7 +12,7 @@ and serves as welcome page for both
 
 For information on how to obtain and use the dataset, please refer to [this documentation page](https://dcmlab.github.io/wagner_overtures/introduction).
 
-# Richard Wagner – Overtures (v2.2)
+# Richard Wagner – Overtures (v2.3)
 
 Here we have two contrasting Wagner overtures in piano reduction: in Tristan und Isolde, one of his most futuristic efforts, and in Die Meistersinger von Nürnberg, one of his most traditional. The contrast is all the more interesting in the context of the knowledge that they were composed at about the same time; their stylistic differences thus reflect a difference in the themes of their associated operas rather than a development of the composer's technique. In the case of Meistersinger, our annotations identify the rich layers of granular detail with which Wagner has decorated what are ostensibly rustic and simple harmonies. Conversely, in Tristan, which famously contains very few resolutions to the tonic triad, we have quantified just how far Wagner was able to go in delaying harmonic closure, and these annotations will prove useful in future research modeling extreme harmonic phenomena.
 
