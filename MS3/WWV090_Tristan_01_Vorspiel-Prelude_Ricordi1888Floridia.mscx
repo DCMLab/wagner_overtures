@@ -163,20 +163,26 @@
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
     <metaTag name="composed_end">1859</metaTag>
+    <metaTag name="composed_source">https://en.wikipedia.org/wiki/Tristan_und_Isolde</metaTag>
     <metaTag name="composed_start">1854</metaTag>
     <metaTag name="composer">Richard Wagner</metaTag>
     <metaTag name="copyright"></metaTag>
     <metaTag name="creationDate">2019-11-01</metaTag>
     <metaTag name="harmony_version">2.1.0</metaTag>
+    <metaTag name="imslp">https://imslp.org/wiki/Tristan_und_Isolde,_WWV_90_(Wagner,_Richard)</metaTag>
     <metaTag name="lyricist"></metaTag>
     <metaTag name="movementNumber"></metaTag>
-    <metaTag name="movementTitle">Erster Aufzug</metaTag>
+    <metaTag name="movementTitle">Prelude</metaTag>
     <metaTag name="mscVersion">3.02</metaTag>
+    <metaTag name="musicbrainz">https://musicbrainz.org/work/52836ec3-2272-37cd-a4af-20ab3bf56b88</metaTag>
     <metaTag name="originalFormat">xml</metaTag>
+    <metaTag name="pdf">https://imslp.org/wiki/Special:ReverseLookup/21459</metaTag>
     <metaTag name="platform">Linux</metaTag>
     <metaTag name="poet"></metaTag>
     <metaTag name="source"></metaTag>
     <metaTag name="translator"></metaTag>
+    <metaTag name="viaf">https://viaf.org/viaf/180184935/</metaTag>
+    <metaTag name="wikidata">https://www.wikidata.org/wiki/Q1324254</metaTag>
     <metaTag name="workNumber">WWV 90</metaTag>
     <metaTag name="workTitle">Tristan und Isolde</metaTag>
     <Part>
@@ -242,21 +248,19 @@
       </Part>
     <Staff id="1">
       <VBox>
-        <height>9.5</height>
+        <height>13.8384</height>
         <boxAutoSize>0</boxAutoSize>
         <Text>
           <style>Title</style>
-          <family>FreeSerif</family>
-          <size>24</size>
-          <offset x="0.813629" y="-9.23864"/>
-          <text><font size="17.2958"></font><font face="Plantin MT Std"></font>Tristan und Isolde</text>
+          <text>Prelude</text>
           </Text>
         <Text>
           <style>Subtitle</style>
-          <family>FreeSerif</family>
-          <size>14</size>
-          <offset x="0.325451" y="-3.86593"/>
-          <text><font size="10.9621"></font><font face="Plantin MT Std"></font>Erster Aufzug</text>
+          <text>from: Tristan und Isolde</text>
+          </Text>
+        <Text>
+          <style>Composer</style>
+          <text>Richard Wagner</text>
           </Text>
         </VBox>
       <Measure len="1/8">
@@ -272,13 +276,14 @@
             </Dynamic>
           <StaffText>
             <family>FreeSerif</family>
-            <offset x="-16.2726" y="-21.669"/>
+            <offset x="-4.49683" y="-6.29852"/>
             <text><font size="10.2313"></font><font face="Plantin MT Std"></font><b>Langsam und schmachtend</b></text>
             </StaffText>
           <Tempo>
             <tempo>1</tempo>
             <followText>1</followText>
-            <offset x="-16.4508" y="-22.8199"/>
+            <minDistance>-4.31626</minDistance>
+            <offset x="1.77066" y="-2.11933"/>
             <text><sym>metNoteQuarterUp</sym> = 60</text>
             </Tempo>
           <Spanner type="HairPin">
