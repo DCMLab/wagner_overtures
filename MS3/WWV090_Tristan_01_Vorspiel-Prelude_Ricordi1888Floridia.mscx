@@ -24278,7 +24278,7 @@
           <endTuplet/>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V64(#9)</name>
+            <name>IV6(#7#5)/bV</name>
             </Harmony>
           <Symbol>
             <name>keyboardPedalPed</name>
@@ -24343,16 +24343,6 @@
               <tpc>18</tpc>
               </Note>
             </Chord>
-          <location>
-            <fractions>-1/96</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>V64</name>
-            </Harmony>
-          <location>
-            <fractions>1/96</fractions>
-            </location>
           <Symbol>
             <name>keyboardPedalUp</name>
             </Symbol>
