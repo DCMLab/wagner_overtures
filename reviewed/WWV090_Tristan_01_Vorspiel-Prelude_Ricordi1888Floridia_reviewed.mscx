@@ -162,6 +162,7 @@
     <metaTag name="P86 (composer)">Q1511</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1859</metaTag>
     <metaTag name="composed_source">https://en.wikipedia.org/wiki/Tristan_und_Isolde</metaTag>
     <metaTag name="composed_start">1854</metaTag>

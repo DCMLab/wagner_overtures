@@ -1,12 +1,6 @@
 Warnings encountered during the last execution of ms3 review
 ============================================================
 
-DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 71, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
-	MC 71: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [2]). You might want to add a + to distinguish from a suspension, or add this warning to IGNORED_WARNINGS with a comment.
-DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 106, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
-	MC 106: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [5]). You might want to add a + to distinguish from a suspension, or add this warning to IGNORED_WARNINGS with a comment.
-DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 7, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
-	MC 7: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [2]). You might want to add a + to distinguish from a suspension, or add this warning to IGNORED_WARNINGS with a comment.
 DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 87, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
 	MC 87: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [2]). You might want to add a + to distinguish from a suspension, or add this warning to IGNORED_WARNINGS with a comment.
 DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 71, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
@@ -17,6 +11,12 @@ DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 7, 'V64(6b5)') ms3.Parse.w
 	MC 7: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [2]). You might want to add a + to distinguish from a suspension, or add this warning to IGNORED_WARNINGS with a comment.
 DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 87, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
 	MC 87: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [2]). You might want to add a + to distinguish from a suspension, or add this warning to IGNORED_WARNINGS with a comment.
+DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 71, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+	MC 71: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [2]). You might want to add a + to distinguish from a suspension, or add this warning to IGNORED_WARNINGS with a comment.
+DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 106, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+	MC 106: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [5]). You might want to add a + to distinguish from a suspension, or add this warning to IGNORED_WARNINGS with a comment.
+DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 7, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+	MC 7: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [2]). You might want to add a + to distinguish from a suspension, or add this warning to IGNORED_WARNINGS with a comment.
 DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 24, '1/8', 'V/V') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
 	The label 'V/V' in m. 23, onset 1/8 (MC 24, onset 1/8) seems not to correspond well to the score (which does not necessarily mean it is wrong).
 	In the context of a.i, it expresses the scale degrees

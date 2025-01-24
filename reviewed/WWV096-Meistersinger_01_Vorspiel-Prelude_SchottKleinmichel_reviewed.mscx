@@ -20,6 +20,7 @@
     <metaTag name="P86 (composer)">Q1511</metaTag>
     <metaTag name="annotators">Adrian Nagel</metaTag>
     <metaTag name="arranger"></metaTag>
+    <metaTag name="compared_against">LATEST_VERSION</metaTag>
     <metaTag name="composed_end">1867</metaTag>
     <metaTag name="composed_source">https://en.wikipedia.org/wiki/Die_Meistersinger_von_N%C3%BCrnberg</metaTag>
     <metaTag name="composed_start">1845</metaTag>

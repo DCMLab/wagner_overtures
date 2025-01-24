@@ -174,13 +174,13 @@
         "type": "string"
       },
       {
-        "name": "pedal",
-        "title": "Pedal Point",
-        "description": "Specified as Roman numeral.",
+        "name": "Ottava:8va",
         "type": "string"
       },
       {
-        "name": "Ottava:8va",
+        "name": "pedal",
+        "title": "Pedal Point",
+        "description": "Specified as Roman numeral.",
         "type": "string"
       },
       {
@@ -193,8 +193,8 @@
       }
     ],
     "facet": "chords",
-    "identifier": "jf8JNQZoBdOPGg",
-    "filepath": "chords/jf8JNQZoBdOPGg.schema.yaml",
+    "identifier": "h-lwJ6dQWu2TJQ",
+    "filepath": "chords/h-lwJ6dQWu2TJQ.schema.yaml",
     "used_in": "WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel"
   },
   "creator": {
@@ -207,8 +207,8 @@
       "name": "Johannes Hentschel",
       "@id": "https://orcid.org/0000-0002-1986-9545"
     },
-    "softwareVersion": "2.4.0"
+    "softwareVersion": "2.5.3"
   },
-  "git_revision": "3d8712d81d6731cdecf2a28ec5b190df56d61e05",
-  "git_tag": "v2.1"
+  "git_revision": "39a32b9c20052338503d861b680472e91a116c4f",
+  "git_tag": "v2.3"
 }
