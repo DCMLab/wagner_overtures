@@ -49394,7 +49394,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio65/iii</name>
+            <name>#viio65/iii</name>
             <offset x="0" y="-8"/>
             </Harmony>
           <Rest>
@@ -49403,7 +49403,7 @@
             </Rest>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>viio43/iii</name>
+            <name>#viio43/iii</name>
             <offset x="0" y="-8"/>
             </Harmony>
           <Rest>
