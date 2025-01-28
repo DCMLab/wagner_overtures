@@ -48656,14 +48656,7 @@
             <durationType>quarter</durationType>
             </Rest>
           <location>
-            <fractions>-1/6</fractions>
-            </location>
-          <Harmony>
-            <harmonyType>1</harmonyType>
-            <name>viio6</name>
-            </Harmony>
-          <location>
-            <fractions>1/12</fractions>
+            <fractions>-1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
