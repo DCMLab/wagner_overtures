@@ -44359,7 +44359,7 @@
             </Chord>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>III.#vii%7/vi</name>
+            <name>i7(#4)</name>
             </Harmony>
           <Chord>
             <durationType>eighth</durationType>
@@ -44383,7 +44383,7 @@
         <voice>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>V43/V</name>
+            <name>III.V43/V</name>
             </Harmony>
           <Chord>
             <durationType>half</durationType>
