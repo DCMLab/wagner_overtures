@@ -50548,14 +50548,14 @@
               </Note>
             </Chord>
           <location>
-            <fractions>-1/12</fractions>
+            <fractions>-1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
-            <name>#viio/ii</name>
+            <name>#viio(9)/ii</name>
             </Harmony>
           <location>
-            <fractions>1/12</fractions>
+            <fractions>1/8</fractions>
             </location>
           <Harmony>
             <harmonyType>1</harmonyType>
