@@ -174,13 +174,13 @@
         "type": "string"
       },
       {
-        "name": "Ottava:8va",
-        "type": "string"
-      },
-      {
         "name": "pedal",
         "title": "Pedal Point",
         "description": "Specified as Roman numeral.",
+        "type": "string"
+      },
+      {
+        "name": "decrescendo_hairpin",
         "type": "string"
       },
       {
@@ -188,13 +188,13 @@
         "type": "string"
       },
       {
-        "name": "decrescendo_hairpin",
+        "name": "Ottava:8va",
         "type": "string"
       }
     ],
     "facet": "chords",
-    "identifier": "h-lwJ6dQWu2TJQ",
-    "filepath": "chords/h-lwJ6dQWu2TJQ.schema.yaml",
+    "identifier": "n5eQs6yR3Iipkg",
+    "filepath": "chords/n5eQs6yR3Iipkg.schema.yaml",
     "used_in": "WWV096-Meistersinger_01_Vorspiel-Prelude_SchottKleinmichel"
   },
   "creator": {
@@ -209,6 +209,6 @@
     },
     "softwareVersion": "2.5.3"
   },
-  "git_revision": "39a32b9c20052338503d861b680472e91a116c4f",
-  "git_tag": "v2.3"
+  "git_revision": "1d916a4ce171f76ec15057a4dfdc86f0bb789ad7",
+  "git_tag": "v2.3-16-g1d916a4"
 }
