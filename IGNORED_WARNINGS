@@ -1,0 +1,34 @@
+DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 7, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+    The original annotator chose this format already in m.2 for labelling the Tristan chord, therefore we'll stick with this going forward.
+
+DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 87, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+	MC 87: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [2]). Tristan chord format chosen by annotator, so will keep.
+
+DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 71, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+	MC 71: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [2]). Tristan chord.
+
+DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 106, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+	MC 106: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [5]). Tristan chord.
+
+DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 7, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+	MC 7: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [2]). Tristan chord.
+
+DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 87, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+	MC 87: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [2]). Tristan chord.
+
+DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 71, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+	MC 71: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [2]). Tristan chord.
+
+DCML_HARMONY_SUPERFLUOUS_TONE_REPLACEMENT_WARNING (6, 106, 'V64(6b5)') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+	MC 106: V64(6b5) results in a chord tone 5th AND its replacement(s) (TPC [5]). Tristan chord.
+
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 24, '1/8', 'V/V') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+	The label 'V/V' in m. 23, onset 1/8 (MC 24, onset 1/8) is plausible and the alto 16ths that follow are passing notes.
+
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 82, '5/8', 'V6') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+	The label 'V6' in m. 81, onset 5/8 (MC 82, onset 5/8) can be understood as an enharmonic spelling, where Ab = G#, E is the root, and Cb=B. 
+
+DCML_NON_CHORD_TONES_ABOVE_THRESHOLD_WARNING (19, 83, '5/8', 'V6') ms3.Parse.wagner_overtures.WWV090_Tristan_01_Vorspiel-Prelude_Ricordi1888Floridia
+	The label 'V6' in m. 82, onset 5/8 (MC 83, onset 5/8) can be understood as an enharmonic spelling, where Ab = G#, E is the root, and Cb=B.
+
+
