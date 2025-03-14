@@ -1,5 +1,5 @@
 ![Version](https://img.shields.io/github/v/release/DCMLab/wagner_overtures?display_name=tag)
-[![DOI](https://zenodo.org/badge/{{ zenodo_badge_id }}.svg)](https://doi.org/{{ concept_doi }})
+[![DOI](https://zenodo.org/badge/388192508.svg)](https://doi.org/10.5281/zenodo.14997120)
 ![GitHub repo size](https://img.shields.io/github/repo-size/DCMLab/wagner_overtures)
 ![License](https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-9cf)
 
@@ -88,7 +88,7 @@ Please [create an issue](https://github.com/DCMLab/wagner_overtures/issues) and/
 
 ## Cite as
 
-> Johannes Hentschel, Yannis Rammos, Markus Neuwirth, & Martin Rohrmeier. (2025). Richard Wagner – Overtures (A corpus of annotated scores) [Data set]. Zenodo. https://doi.org/{{ concept_doi }}
+> Johannes Hentschel, Yannis Rammos, Markus Neuwirth, & Martin Rohrmeier. (2025). Richard Wagner – Overtures (A corpus of annotated scores) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.14997120
 
 ## License
 
