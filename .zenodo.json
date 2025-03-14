@@ -4,6 +4,21 @@
         {
             "type": "DataCollector",
             "name": "Adrian Nagel"
+        },
+        {
+            "orcid": "0000-0002-6329-7492",
+            "type": "DataCurator",
+            "name": "Amelia Brey"
+        },
+        {
+            "orcid": "0000-0002-2105-525X",
+            "type": "DataCurator",
+            "name": "Hanné Becker"
+        },
+        {
+            "orcid": "0000-0002-1986-9545",
+            "type": "DataCurator",
+            "name": "Johannes Hentschel"
         }
     ],
     "title": "Richard Wagner – Overtures (A corpus of annotated scores)",
