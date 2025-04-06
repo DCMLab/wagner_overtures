@@ -1,0 +1,74 @@
+Traceback (most recent call last):
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/nbclient/client.py", line 1204, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/nbclient/util.py", line 84, in wrapped
+    return just_run(coro(*args, **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/nbclient/util.py", line 62, in just_run
+    return loop.run_until_complete(coro)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/nbclient/client.py", line 663, in async_execute
+    await self.async_execute_cell(
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/nbclient/client.py", line 965, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+from utils import (
+    CORPUS_COLOR_SCALE,
+    DEFAULT_OUTPUT_FORMAT,
+    OUTPUT_FOLDER,
+    STD_LAYOUT,
+    corpus_mean_composition_years,
+    get_corpus_display_name,
+    get_repo_name,
+    print_heading,
+    resolve_dir,
+)
+
+RESULTS_PATH = os.path.abspath(os.path.join(OUTPUT_FOLDER, "overview"))
+os.makedirs(RESULTS_PATH, exist_ok=True)
+
+
+def make_output_path(filename):
+    return os.path.join(RESULTS_PATH, f"{filename}{DEFAULT_OUTPUT_FORMAT}")
+
+
+def save_figure_as(fig, filename, directory=RESULTS_PATH, **kwargs):
+    write_image(fig, filename, directory, **kwargs)
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mModuleNotFoundError[0m                       Traceback (most recent call last)
+Cell [0;32mIn[2], line 1[0m
+[0;32m----> 1[0m [38;5;28;01mfrom[39;00m [38;5;21;01mutils[39;00m [38;5;28;01mimport[39;00m (
+[1;32m      2[0m     CORPUS_COLOR_SCALE,
+[1;32m      3[0m     DEFAULT_OUTPUT_FORMAT,
+[1;32m      4[0m     OUTPUT_FOLDER,
+[1;32m      5[0m     STD_LAYOUT,
+[1;32m      6[0m     corpus_mean_composition_years,
+[1;32m      7[0m     get_corpus_display_name,
+[1;32m      8[0m     get_repo_name,
+[1;32m      9[0m     print_heading,
+[1;32m     10[0m     resolve_dir,
+[1;32m     11[0m )
+[1;32m     13[0m RESULTS_PATH [38;5;241m=[39m os[38;5;241m.[39mpath[38;5;241m.[39mabspath(os[38;5;241m.[39mpath[38;5;241m.[39mjoin(OUTPUT_FOLDER, [38;5;124m"[39m[38;5;124moverview[39m[38;5;124m"[39m))
+[1;32m     14[0m os[38;5;241m.[39mmakedirs(RESULTS_PATH, exist_ok[38;5;241m=[39m[38;5;28;01mTrue[39;00m)
+
+File [0;32m~/git/wagner_overtures/tmp_corpus_docs/notebooks/utils.py:73[0m
+[1;32m     70[0m [38;5;28;01mfrom[39;00m [38;5;21;01msklearn[39;00m[38;5;21;01m.[39;00m[38;5;21;01mneighbors[39;00m [38;5;28;01mimport[39;00m NeighborhoodComponentsAnalysis
+[1;32m     71[0m [38;5;28;01mfrom[39;00m [38;5;21;01msklearn[39;00m[38;5;21;01m.[39;00m[38;5;21;01mpreprocessing[39;00m [38;5;28;01mimport[39;00m Normalizer, StandardScaler
+[0;32m---> 73[0m [38;5;28;01mfrom[39;00m [38;5;21;01mcreate_gantt[39;00m [38;5;28;01mimport[39;00m create_gantt, fill_yaxis_gaps
+[1;32m     75[0m set_config(transform_output[38;5;241m=[39m[38;5;124m"[39m[38;5;124mpandas[39m[38;5;124m"[39m)
+[1;32m     77[0m RANDOM_STATE [38;5;241m=[39m np[38;5;241m.[39mrandom[38;5;241m.[39mRandomState([38;5;241m42[39m)
+
+[0;31mModuleNotFoundError[0m: No module named 'create_gantt'
+ModuleNotFoundError: No module named 'create_gantt'
+
