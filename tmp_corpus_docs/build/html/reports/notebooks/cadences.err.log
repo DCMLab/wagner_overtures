@@ -1,0 +1,102 @@
+Traceback (most recent call last):
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/nbclient/client.py", line 1204, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/nbclient/util.py", line 84, in wrapped
+    return just_run(coro(*args, **kwargs))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/nbclient/util.py", line 62, in just_run
+    return loop.run_until_complete(coro)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/asyncio/base_events.py", line 653, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/nbclient/client.py", line 663, in async_execute
+    await self.async_execute_cell(
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/nbclient/client.py", line 965, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/home/laser/miniconda3/envs/corpus_docs/lib/python3.11/site-packages/nbclient/client.py", line 862, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+try:
+    cadence_labels = D.get_feature("cadencelabels")
+except Exception:
+    raise ValueError("Corpus has no cadence annotations.")
+cadence_labels
+------------------
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mRuntimeError[0m                              Traceback (most recent call last)
+Cell [0;32mIn[4], line 2[0m
+[1;32m      1[0m [38;5;28;01mtry[39;00m:
+[0;32m----> 2[0m     cadence_labels [38;5;241m=[39m [43mD[49m[38;5;241;43m.[39;49m[43mget_feature[49m[43m([49m[38;5;124;43m"[39;49m[38;5;124;43mcadencelabels[39;49m[38;5;124;43m"[39;49m[43m)[49m
+[1;32m      3[0m [38;5;28;01mexcept[39;00m [38;5;167;01mException[39;00m:
+
+File [0;32m~/git/dimcat/src/dimcat/data/datasets/base.py:314[0m, in [0;36mDataset.get_feature[0;34m(self, feature)[0m
+[1;32m    313[0m     [38;5;28;01mpass[39;00m
+[0;32m--> 314[0m [38;5;28;01mreturn[39;00m [38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mextract_feature[49m[43m([49m[43mfeature_config[49m[43m)[49m
+
+File [0;32m~/git/dimcat/src/dimcat/data/datasets/base.py:290[0m, in [0;36mDataset.extract_feature[0;34m(self, feature, ignore_exceptions)[0m
+[1;32m    289[0m feature_extractor [38;5;241m=[39m Constructor(feature_config)
+[0;32m--> 290[0m extracted [38;5;241m=[39m [38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43m_extract_feature[49m[43m([49m
+[1;32m    291[0m [43m    [49m[43mfeature_config[49m[43m,[49m[43m [49m[43mignore_exceptions[49m[38;5;241;43m=[39;49m[43mignore_exceptions[49m
+[1;32m    292[0m [43m[49m[43m)[49m
+[1;32m    293[0m [38;5;28mself[39m[38;5;241m.[39madd_output(resource[38;5;241m=[39mextracted, package_name[38;5;241m=[39m[38;5;124m"[39m[38;5;124mfeatures[39m[38;5;124m"[39m)
+
+File [0;32m~/git/dimcat/src/dimcat/data/datasets/base.py:259[0m, in [0;36mDataset._extract_feature[0;34m(self, feature_config, ignore_exceptions)[0m
+[1;32m    249[0m [38;5;250m[39m[38;5;124;03m"""Extracts a feature from the Dataset's input catalog, sends it through its pipeline and returns the result,[39;00m
+[1;32m    250[0m [38;5;124;03mwithout storing it.[39;00m
+[1;32m    251[0m 
+[0;32m   (...)[0m
+[1;32m    257[0m [38;5;124;03m        extracted feature, ignoring the fact that not all PipelineSteps may have been applied to it.[39;00m
+[1;32m    258[0m [38;5;124;03m"""[39;00m
+[0;32m--> 259[0m extracted [38;5;241m=[39m [38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43minputs[49m[38;5;241;43m.[39;49m[43mextract_feature[49m[43m([49m[43mfeature_config[49m[43m)[49m
+[1;32m    260[0m [38;5;28;01mif[39;00m [38;5;28mlen[39m([38;5;28mself[39m[38;5;241m.[39m_pipeline) [38;5;241m==[39m [38;5;241m0[39m:
+
+File [0;32m~/git/dimcat/src/dimcat/data/catalogs/inputs.py:18[0m, in [0;36mInputsCatalog.extract_feature[0;34m(self, feature)[0m
+[1;32m     17[0m package [38;5;241m=[39m [38;5;28mself[39m[38;5;241m.[39mget_package()
+[0;32m---> 18[0m [38;5;28;01mreturn[39;00m [43mpackage[49m[38;5;241;43m.[39;49m[43mextract_feature[49m[43m([49m[43mfeature[49m[43m)[49m
+
+File [0;32m~/git/dimcat/src/dimcat/data/packages/base.py:1047[0m, in [0;36mPackage.extract_feature[0;34m(self, feature)[0m
+[1;32m   1046[0m selected_facet [38;5;241m=[39m candidate_facets[[38;5;241m0[39m]
+[0;32m-> 1047[0m [38;5;28;01mreturn[39;00m [43mselected_facet[49m[38;5;241;43m.[39;49m[43m_extract_feature[49m[43m([49m[43mfeature_config[49m[43m)[49m
+
+File [0;32m~/git/dimcat/src/dimcat/data/resources/dc.py:985[0m, in [0;36mDimcatResource._extract_feature[0;34m(self, feature_config, new_name)[0m
+[1;32m    984[0m len_before [38;5;241m=[39m [38;5;28mlen[39m(feature_df)
+[0;32m--> 985[0m feature_df [38;5;241m=[39m [38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43m_transform_df_for_extraction[49m[43m([49m[43mfeature_df[49m[43m,[49m[43m [49m[43mfeature_config[49m[43m)[49m
+[1;32m    986[0m init_args [38;5;241m=[39m [38;5;28mdict[39m(
+[1;32m    987[0m     resource_name[38;5;241m=[39mnew_name,
+[1;32m    988[0m )
+
+File [0;32m~/git/dimcat/src/dimcat/data/resources/facets.py:808[0m, in [0;36mMuseScoreHarmonies._transform_df_for_extraction[0;34m(self, feature_df, feature_config)[0m
+[1;32m    807[0m [38;5;28;01mif[39;00m [38;5;28missubclass[39m([38;5;28mcls[39m, CadenceLabels):
+[0;32m--> 808[0m     feature_df [38;5;241m=[39m [43mdrop_rows_with_missing_values[49m[43m([49m
+[1;32m    809[0m [43m        [49m[43mfeature_df[49m[43m,[49m[43m [49m[43mfeature_column_names[49m[43m,[49m[43m [49m[43mlogger[49m[38;5;241;43m=[39;49m[38;5;28;43mself[39;49m[38;5;241;43m.[39;49m[43mlogger[49m
+[1;32m    810[0m [43m    [49m[43m)[49m
+[1;32m    811[0m     feature_df [38;5;241m=[39m extend_cadence_feature(feature_df)
+
+File [0;32m~/git/dimcat/src/dimcat/data/resources/utils.py:435[0m, in [0;36mdrop_rows_with_missing_values[0;34m(df, column_names, how, logger)[0m
+[1;32m    434[0m [38;5;28;01mif[39;00m drop_mask[38;5;241m.[39mall():
+[0;32m--> 435[0m     [38;5;28;01mraise[39;00m [38;5;167;01mRuntimeError[39;00m(
+[1;32m    436[0m         [38;5;124mf[39m[38;5;124m"[39m[38;5;124mThe dataframe contains no fully defined objects based on the [39m[38;5;124m"[39m
+[1;32m    437[0m         [38;5;124mf[39m[38;5;124m"[39m[38;5;124mcolumns [39m[38;5;132;01m{[39;00mcolumn_names[38;5;132;01m}[39;00m[38;5;124m.[39m[38;5;124m"[39m
+[1;32m    438[0m     )
+[1;32m    439[0m n_dropped [38;5;241m=[39m drop_mask[38;5;241m.[39msum()
+
+[0;31mRuntimeError[0m: The dataframe contains no fully defined objects based on the columns ['cadence'].
+
+During handling of the above exception, another exception occurred:
+
+[0;31mValueError[0m                                Traceback (most recent call last)
+Cell [0;32mIn[4], line 4[0m
+[1;32m      2[0m     cadence_labels [38;5;241m=[39m D[38;5;241m.[39mget_feature([38;5;124m"[39m[38;5;124mcadencelabels[39m[38;5;124m"[39m)
+[1;32m      3[0m [38;5;28;01mexcept[39;00m [38;5;167;01mException[39;00m:
+[0;32m----> 4[0m     [38;5;28;01mraise[39;00m [38;5;167;01mValueError[39;00m([38;5;124m"[39m[38;5;124mCorpus has no cadence annotations.[39m[38;5;124m"[39m)
+[1;32m      5[0m cadence_labels
+
+[0;31mValueError[0m: Corpus has no cadence annotations.
+ValueError: Corpus has no cadence annotations.
+
