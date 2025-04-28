@@ -18,33 +18,40 @@ Traceback (most recent call last):
     raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
 nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
 ------------------
-%load_ext autoreload
-%autoreload 2
-import os
-
-import dimcat as dc
-import pandas as pd
-import plotly.express as px
-from dimcat import filters, plotting
-from IPython.display import display
-
-import utils
+all_measures.get_default_analysis().plot_grouped()
 ------------------
 
 
 [31m---------------------------------------------------------------------------[39m
-[31mModuleNotFoundError[39m                       Traceback (most recent call last)
-[36mCell[39m[36m [39m[32mIn[1][39m[32m, line 11[39m
-[32m      8[39m [38;5;28;01mfrom[39;00m [34;01mdimcat[39;00m [38;5;28;01mimport[39;00m filters, plotting
-[32m      9[39m [38;5;28;01mfrom[39;00m [34;01mIPython[39;00m[34;01m.[39;00m[34;01mdisplay[39;00m [38;5;28;01mimport[39;00m display
-[32m---> [39m[32m11[39m [38;5;28;01mimport[39;00m [34;01mutils[39;00m
+[31mFeatureWithUndefinedValueColumnError[39m      Traceback (most recent call last)
+[36mCell[39m[36m [39m[32mIn[15][39m[32m, line 1[39m
+[32m----> [39m[32m1[39m [43mall_measures[49m[43m.[49m[43mget_default_analysis[49m[43m([49m[43m)[49m.plot_grouped()
 
-[36mFile [39m[32m~/work/workflow_deployment/wagner_overtures/tmp_corpus_docs/notebooks/utils.py:34[39m
-[32m     32[39m [38;5;28;01mimport[39;00m [34;01mpandas[39;00m [38;5;28;01mas[39;00m [34;01mpd[39;00m
-[32m     33[39m [38;5;28;01mimport[39;00m [34;01mplotly[39;00m[34;01m.[39;00m[34;01mexpress[39;00m [38;5;28;01mas[39;00m [34;01mpx[39;00m
-[32m---> [39m[32m34[39m [38;5;28;01mimport[39;00m [34;01mseaborn[39;00m [38;5;28;01mas[39;00m [34;01msns[39;00m
-[32m     35[39m [38;5;28;01mfrom[39;00m [34;01mdimcat[39;00m [38;5;28;01mimport[39;00m Dataset
-[32m     36[39m [38;5;28;01mfrom[39;00m [34;01mdimcat[39;00m[34;01m.[39;00m[34;01mbase[39;00m [38;5;28;01mimport[39;00m FriendlyEnum, deserialize_json_file, get_setting
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/data/resources/dc.py:1146[39m, in [36mDimcatResource.get_default_analysis[39m[34m(self)[39m
+[32m   1143[39m [38;5;129m@cache[39m
+[32m   1144[39m [38;5;28;01mdef[39;00m [34mget_default_analysis[39m([38;5;28mself[39m) -> Rs:
+[32m   1145[39m [38;5;250m    [39m[33;03m"""Returns the default analysis of the resource."""[39;00m
+[32m-> [39m[32m1146[39m     [38;5;28;01mreturn[39;00m [38;5;28;43mself[39;49m[43m.[49m[43mapply_step[49m[43m([49m[38;5;28;43mself[39;49m[43m.[49m[43m_default_analyzer[49m[43m)[49m
 
-[31mModuleNotFoundError[39m: No module named 'seaborn'
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/data/resources/dc.py:907[39m, in [36mDimcatResource.apply_step[39m[34m(self, *step)[39m
+[32m    905[39m         [38;5;28;01mreturn[39;00m [38;5;28mself[39m.apply_step(*single_step)
+[32m    906[39m     step_obj = make_object_from_specs(single_step, [33m"[39m[33mPipelineStep[39m[33m"[39m)
+[32m--> [39m[32m907[39m     [38;5;28;01mreturn[39;00m [43mstep_obj[49m[43m.[49m[43mprocess_resource[49m[43m([49m[38;5;28;43mself[39;49m[43m)[49m
+[32m    908[39m Constructor = get_class([33m"[39m[33mPipeline[39m[33m"[39m)
+[32m    909[39m pipeline = Constructor(steps=step)
+
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/steps/base.py:270[39m, in [36mPipelineStep.process_resource[39m[34m(self, resource)[39m
+[32m    268[39m [38;5;28;01mdef[39;00m [34mprocess_resource[39m([38;5;28mself[39m, resource: ResourceSpecs) -> DR:
+[32m    269[39m     resource = resource_specs2resource(resource)
+[32m--> [39m[32m270[39m     [38;5;28;43mself[39;49m[43m.[49m[43mcheck_resource[49m[43m([49m[43mresource[49m[43m)[49m
+[32m    271[39m     [38;5;28;01mreturn[39;00m [38;5;28mself[39m._process_resource(resource)
+
+[36mFile [39m[32m~/.local/lib/python3.12/site-packages/dimcat/steps/analyzers/proportions.py:42[39m, in [36mProportions.check_resource[39m[34m(self, resource)[39m
+[32m     40[39m [38;5;28msuper[39m().check_resource(resource)
+[32m     41[39m [38;5;28;01mif[39;00m resource.value_column [38;5;129;01mis[39;00m [38;5;28;01mNone[39;00m:
+[32m---> [39m[32m42[39m     [38;5;28;01mraise[39;00m FeatureWithUndefinedValueColumnError(
+[32m     43[39m         resource.resource_name, resource.name
+[32m     44[39m     )
+
+[31mFeatureWithUndefinedValueColumnError[39m: No value_column is defined for feature 'wagner_overtures.measures.measures' of type 'Measures'.
 

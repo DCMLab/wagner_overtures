@@ -352,25 +352,6 @@ document.write(`
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">13</span>
-<span class="g g-Whitespace">     </span><span class="mi">10</span> <span class="kn">from</span> <span class="nn">dimcat</span> <span class="kn">import</span> <span class="n">plotting</span>
-<span class="g g-Whitespace">     </span><span class="mi">11</span> <span class="kn">from</span> <span class="nn">dimcat.steps</span> <span class="kn">import</span> <span class="n">filters</span><span class="p">,</span> <span class="n">groupers</span><span class="p">,</span> <span class="n">slicers</span>
-<span class="ne">---&gt; </span><span class="mi">13</span> <span class="kn">import</span> <span class="nn">utils</span>
-
-<span class="n">File</span> <span class="o">~/</span><span class="n">work</span><span class="o">/</span><span class="n">workflow_deployment</span><span class="o">/</span><span class="n">wagner_overtures</span><span class="o">/</span><span class="n">tmp_corpus_docs</span><span class="o">/</span><span class="n">notebooks</span><span class="o">/</span><span class="n">utils</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">34</span>
-<span class="g g-Whitespace">     </span><span class="mi">32</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="g g-Whitespace">     </span><span class="mi">33</span> <span class="kn">import</span> <span class="nn">plotly.express</span> <span class="k">as</span> <span class="nn">px</span>
-<span class="ne">---&gt; </span><span class="mi">34</span> <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
-<span class="g g-Whitespace">     </span><span class="mi">35</span> <span class="kn">from</span> <span class="nn">dimcat</span> <span class="kn">import</span> <span class="n">Dataset</span>
-<span class="g g-Whitespace">     </span><span class="mi">36</span> <span class="kn">from</span> <span class="nn">dimcat.base</span> <span class="kn">import</span> <span class="n">FriendlyEnum</span><span class="p">,</span> <span class="n">deserialize_json_file</span><span class="p">,</span> <span class="n">get_setting</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;seaborn&#39;
-</pre></div>
-</div>
-</div>
 </details>
 </div>
 <div class="cell tag_hide-input docutils container">
@@ -426,6 +407,28 @@ document.write(`
 </div>
 </div>
 </details>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Data and software versions
+--------------------------
+
+Richard Wagner – Overtures version v2.6
+Datapackage &#39;wagner_overtures&#39; @ v2.6
+dimcat version 3.3.0
+</pre></div>
+</div>
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Dataset
+=======
+{&#39;inputs&#39;: {&#39;basepath&#39;: None,
+            &#39;packages&#39;: {&#39;wagner_overtures&#39;: [&quot;&#39;wagner_overtures.measures&#39; (MuseScoreFacetName.MuseScoreMeasures)&quot;,
+                                              &quot;&#39;wagner_overtures.notes&#39; (MuseScoreFacetName.MuseScoreNotes)&quot;,
+                                              &quot;&#39;wagner_overtures.expanded&#39; (MuseScoreFacetName.MuseScoreHarmonies)&quot;,
+                                              &quot;&#39;wagner_overtures.chords&#39; (MuseScoreFacetName.MuseScoreChords)&quot;,
+                                              &quot;&#39;wagner_overtures.metadata&#39; (FeatureName.Metadata)&quot;]}},
+ &#39;outputs&#39;: {&#39;basepath&#39;: None, &#39;packages&#39;: {}},
+ &#39;pipeline&#39;: []}
+</pre></div>
+</div>
+</div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -434,6 +437,79 @@ document.write(`
 <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
     <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Corpus has no cadence annotations.&quot;</span><span class="p">)</span>
 <span class="n">cadence_labels</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">RuntimeError</span><span class="g g-Whitespace">                              </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="k">try</span><span class="p">:</span>
+<span class="ne">----&gt; </span><span class="mi">2</span>     <span class="n">cadence_labels</span> <span class="o">=</span> <span class="n">D</span><span class="o">.</span><span class="n">get_feature</span><span class="p">(</span><span class="s2">&quot;cadencelabels&quot;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+
+<span class="nn">File ~/.local/lib/python3.12/site-packages/dimcat/data/datasets/base.py:314,</span> in <span class="ni">Dataset.get_feature</span><span class="nt">(self, feature)</span>
+<span class="g g-Whitespace">    </span><span class="mi">313</span>     <span class="k">pass</span>
+<span class="ne">--&gt; </span><span class="mi">314</span> <span class="k">return</span> <span class="bp">self</span><span class="o">.</span><span class="n">extract_feature</span><span class="p">(</span><span class="n">feature_config</span><span class="p">)</span>
+
+<span class="nn">File ~/.local/lib/python3.12/site-packages/dimcat/data/datasets/base.py:290,</span> in <span class="ni">Dataset.extract_feature</span><span class="nt">(self, feature, ignore_exceptions)</span>
+<span class="g g-Whitespace">    </span><span class="mi">289</span> <span class="n">feature_extractor</span> <span class="o">=</span> <span class="n">Constructor</span><span class="p">(</span><span class="n">feature_config</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">290</span> <span class="n">extracted</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_extract_feature</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">291</span>     <span class="n">feature_config</span><span class="p">,</span> <span class="n">ignore_exceptions</span><span class="o">=</span><span class="n">ignore_exceptions</span>
+<span class="g g-Whitespace">    </span><span class="mi">292</span> <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">293</span> <span class="bp">self</span><span class="o">.</span><span class="n">add_output</span><span class="p">(</span><span class="n">resource</span><span class="o">=</span><span class="n">extracted</span><span class="p">,</span> <span class="n">package_name</span><span class="o">=</span><span class="s2">&quot;features&quot;</span><span class="p">)</span>
+
+<span class="nn">File ~/.local/lib/python3.12/site-packages/dimcat/data/datasets/base.py:259,</span> in <span class="ni">Dataset._extract_feature</span><span class="nt">(self, feature_config, ignore_exceptions)</span>
+<span class="g g-Whitespace">    </span><span class="mi">249</span><span class="w"> </span><span class="sd">&quot;&quot;&quot;Extracts a feature from the Dataset&#39;s input catalog, sends it through its pipeline and returns the result,</span>
+<span class="g g-Whitespace">    </span><span class="mi">250</span><span class="sd"> without storing it.</span>
+<span class="g g-Whitespace">    </span><span class="mi">251</span><span class="sd"> </span>
+<span class="sd">   (...)    257         extracted feature, ignoring the fact that not all PipelineSteps may have been applied to it.</span>
+<span class="g g-Whitespace">    </span><span class="mi">258</span><span class="sd"> &quot;&quot;&quot;</span>
+<span class="ne">--&gt; </span><span class="mi">259</span> <span class="n">extracted</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">inputs</span><span class="o">.</span><span class="n">extract_feature</span><span class="p">(</span><span class="n">feature_config</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">260</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_pipeline</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+
+<span class="nn">File ~/.local/lib/python3.12/site-packages/dimcat/data/catalogs/inputs.py:18,</span> in <span class="ni">InputsCatalog.extract_feature</span><span class="nt">(self, feature)</span>
+<span class="g g-Whitespace">     </span><span class="mi">17</span> <span class="n">package</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">get_package</span><span class="p">()</span>
+<span class="ne">---&gt; </span><span class="mi">18</span> <span class="k">return</span> <span class="n">package</span><span class="o">.</span><span class="n">extract_feature</span><span class="p">(</span><span class="n">feature</span><span class="p">)</span>
+
+<span class="nn">File ~/.local/lib/python3.12/site-packages/dimcat/data/packages/base.py:1047,</span> in <span class="ni">Package.extract_feature</span><span class="nt">(self, feature)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1046</span> <span class="n">selected_facet</span> <span class="o">=</span> <span class="n">candidate_facets</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="ne">-&gt; </span><span class="mi">1047</span> <span class="k">return</span> <span class="n">selected_facet</span><span class="o">.</span><span class="n">_extract_feature</span><span class="p">(</span><span class="n">feature_config</span><span class="p">)</span>
+
+<span class="nn">File ~/.local/lib/python3.12/site-packages/dimcat/data/resources/dc.py:985,</span> in <span class="ni">DimcatResource._extract_feature</span><span class="nt">(self, feature_config, new_name)</span>
+<span class="g g-Whitespace">    </span><span class="mi">984</span> <span class="n">len_before</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">feature_df</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">985</span> <span class="n">feature_df</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_transform_df_for_extraction</span><span class="p">(</span><span class="n">feature_df</span><span class="p">,</span> <span class="n">feature_config</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">986</span> <span class="n">init_args</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">987</span>     <span class="n">resource_name</span><span class="o">=</span><span class="n">new_name</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">988</span> <span class="p">)</span>
+
+<span class="nn">File ~/.local/lib/python3.12/site-packages/dimcat/data/resources/facets.py:804,</span> in <span class="ni">MuseScoreHarmonies._transform_df_for_extraction</span><span class="nt">(self, feature_df, feature_config)</span>
+<span class="g g-Whitespace">    </span><span class="mi">803</span> <span class="k">if</span> <span class="nb">issubclass</span><span class="p">(</span><span class="bp">cls</span><span class="p">,</span> <span class="n">CadenceLabels</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">804</span>     <span class="n">feature_df</span> <span class="o">=</span> <span class="n">drop_rows_with_missing_values</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">805</span>         <span class="n">feature_df</span><span class="p">,</span> <span class="n">feature_column_names</span><span class="p">,</span> <span class="n">logger</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">logger</span>
+<span class="g g-Whitespace">    </span><span class="mi">806</span>     <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">807</span>     <span class="n">feature_df</span> <span class="o">=</span> <span class="n">extend_cadence_feature</span><span class="p">(</span><span class="n">feature_df</span><span class="p">)</span>
+
+<span class="nn">File ~/.local/lib/python3.12/site-packages/dimcat/data/resources/utils.py:435,</span> in <span class="ni">drop_rows_with_missing_values</span><span class="nt">(df, column_names, how, logger)</span>
+<span class="g g-Whitespace">    </span><span class="mi">434</span> <span class="k">if</span> <span class="n">drop_mask</span><span class="o">.</span><span class="n">all</span><span class="p">():</span>
+<span class="ne">--&gt; </span><span class="mi">435</span>     <span class="k">raise</span> <span class="ne">RuntimeError</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">436</span>         <span class="sa">f</span><span class="s2">&quot;The dataframe contains no fully defined objects based on the &quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">437</span>         <span class="sa">f</span><span class="s2">&quot;columns </span><span class="si">{</span><span class="n">column_names</span><span class="si">}</span><span class="s2">.&quot;</span>
+<span class="g g-Whitespace">    </span><span class="mi">438</span>     <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">439</span> <span class="n">n_dropped</span> <span class="o">=</span> <span class="n">drop_mask</span><span class="o">.</span><span class="n">sum</span><span class="p">()</span>
+
+<span class="ne">RuntimeError</span>: The dataframe contains no fully defined objects based on the columns [&#39;cadence&#39;].
+
+<span class="n">During</span> <span class="n">handling</span> <span class="n">of</span> <span class="n">the</span> <span class="n">above</span> <span class="n">exception</span><span class="p">,</span> <span class="n">another</span> <span class="n">exception</span> <span class="n">occurred</span><span class="p">:</span>
+
+<span class="ne">ValueError</span><span class="g g-Whitespace">                                </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="n">line</span> <span class="mi">4</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span>     <span class="n">cadence_labels</span> <span class="o">=</span> <span class="n">D</span><span class="o">.</span><span class="n">get_feature</span><span class="p">(</span><span class="s2">&quot;cadencelabels&quot;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="k">except</span> <span class="ne">Exception</span><span class="p">:</span>
+<span class="ne">----&gt; </span><span class="mi">4</span>     <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;Corpus has no cadence annotations.&quot;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="n">cadence_labels</span>
+
+<span class="ne">ValueError</span>: Corpus has no cadence annotations.
 </pre></div>
 </div>
 </div>
